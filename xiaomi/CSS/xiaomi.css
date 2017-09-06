@@ -2,7 +2,7 @@
 * @Author: DELL
 * @Date:   2017-08-29 15:57:27
 * @Last Modified by:   DELL
-* @Last Modified time: 2017-09-04 14:35:33
+* @Last Modified time: 2017-09-06 23:01:33
 */
 #head{
 	width: 100%;
@@ -88,6 +88,12 @@
 	margin-right: 20px;
 	font-family:"微软雅黑";
 }
+.head-wenzi2 a{
+	color: #333;
+}
+.head-wenzi2 a:hover{
+	color: orangered;
+}
 .head-wenzi22{
 	margin-left: 244px;
 }
@@ -151,11 +157,43 @@
 	margin-top: 9px;
 	width: 12px;
 	height: 12px;
-	border-radius: 6px;
+	border-radius: 50%;
     margin-left: 5px;
     margin-right: 5px;
-	background-color: #eee;
+	background-color: #b0b0b0 ;
+	border: 3px #b0b0b0 solid;
 	float: right;
+}
+.yuan:hover{
+	background-color: #eee;
+}
+.zuoyou1{
+    position: absolute;
+    top: 50%;
+    left: 234px;
+    width: 41px;
+    height: 69px;
+    margin-top: -35px;
+}
+.zuoyou1:hover{
+	background-color: #757575;
+}
+.zuoyou2{
+    position: absolute;
+    top: 50%;
+    right: 0px;
+    width: 41px;
+    height: 69px;
+    margin-top: -35px;
+}
+.zuoyou2:hover{
+	background-color: #757575;
+}
+.iconfont7{
+	font-size: 40px;
+	color: #b0b0b0;
+	line-height: 69px;
+	text-align: center;
 }
 .zhuye-left{
 	width: 234px;
@@ -175,6 +213,9 @@
 	color: #fff;
 	line-height: 42px;
 	position: relative;
+}
+.wzbox:hover{
+	background-color: orangered;
 }
 .tbox{
 	position: absolute;
@@ -283,17 +324,17 @@
 }
 /* .head-wenzi a{
 	color: #333;
-}
-.head-wenzi a:link{
+} */
+/* .head-wenzi a:link{
 	color: gold;
-}
-.head-wenzi a:visited{
-	color: hsl(300, 100%, 98%);
-}
+} */
+/* .head-wenzi a:visited{
+	color: red;
+} */
 .head-wenzi a:hover{
-	color: orange;
+	color: #eee;
 }
-.head-wenzi a:active{
+/* .head-wenzi a:active{
 	color: yellowgreen;
 } */
 #danpin{
@@ -747,8 +788,8 @@
 	border-top-color: #e53935;
 }
 .neirong2{
-	width: 296px;
-	height: 220px;
+	width: 216px;
+	height: 154px;
 	margin: 0 auto;
 }
 .neirong3{
@@ -798,6 +839,27 @@
 }
 .neibox5{
 	color: #2196f3;
+}
+.nydbox{
+	text-align: center;
+}
+.nybox{
+	display: inline-block;
+    width: 10px;
+    height: 10px;
+    padding: 10px;
+    margin-left: 5px;
+}
+.nybox1{
+	display: block;
+    width: 6px;
+    height: 6px;
+    border: 1px solid orangered;
+    border-radius: 6px;
+    overflow: hidden;
+}
+.nybox1:hover{
+	background-color: #ffac13;
 }
 .shipin-top{
 	width: 1226px;
@@ -949,10 +1011,16 @@
 .jiewei{
 	height: 14px;
 	font-size: 12px;
-	color: #757575;
+	color: #b0b0b0;
 }
 .jiewei-wenzi{
 	float: left;
+}
+.jiewei-wenzi a{
+	color: #757575;
+}
+.jiewei-wenzi a:hover{
+	color: orangered;
 }
 .st{
 	margin-right: 3px;
