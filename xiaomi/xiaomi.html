@@ -6,7 +6,6 @@
 	<link rel="shortcut icon" href="IMG/xiaomi.ico"><!-- logo标签 -->
 	<link rel="stylesheet" href="CSS/xiaomi.css">
 	<link rel="stylesheet" href="CSS/qingchubiao.css">
-	<link rel="stylesheet" href="CSS/base.css">
 </head>
 <body>
 	<!-- 头部开始 -->
@@ -66,15 +65,23 @@
 	<!-- 导航结束 -->
 	<!-- 内容开始 -->
 	<div id="zhuye">
-		<div class="zhuye"><img src="IMG/xiaomizhuye.jpg" alt="">
-			<div class="yuanbox">
+		<div class="zhuye">
+			<div class="binnerbox">
+            <li><a href=""><img class = "active" src="img/binner1.jpg" alt=""></a></li>
+            <li><a href=""><img src="img/binner2.jpg" alt=""></a></li>
+            <li><a href=""><img src="img/binner3.jpg" alt=""></a></li>
+            <li><a href=""><img src="img/binner4.jpg" alt=""></a></li>
+            <li><a href=""><img src="img/binner5.jpg" alt=""></a></li>
+            <li><a href=""><img src="img/binner6.jpg" alt=""></a></li>
+        </div>
+		<div class="yuanbox">
+			<div class="yuan active"></div>
 			<div class="yuan"></div>
 			<div class="yuan"></div>
 			<div class="yuan"></div>
 			<div class="yuan"></div>
 			<div class="yuan"></div>
-			<div class="yuan"></div>
-			</div>
+		</div>
 			<div class="zuoyou1"><i class="iconfont iconfont7">&#xe62d;</i></div>
 			<div class="zuoyou2"><i class="iconfont iconfont7">&#xe62b;</i></div>
 		</div>
@@ -136,8 +143,9 @@
 	<div id="danpin">
 		<div class="danpin-top">
 			<h1>明星单品</h1>
-			<div class="danpin-right"><i class="iconfont iconfont6">&#xe62b;</i></div>
-			<div class="danpin-right"><i class="iconfont iconfont6">&#xe62d;</i></div>
+			<div class="danpin-rbox"><div class="danpin-prev active">&gt;</div>
+			<div class="danpin-next">&lt;</div></div>
+			
 		</div>
 		<div class="danpin-bottom">
 			<div class="danpin-list">
@@ -156,9 +164,29 @@
 				<div class="danpin-img"><img src="IMG/xiaomidianshi.png" alt=""></div>
 				<h3>小米电视4A 43英寸</h3><h4>享小米分期12期免息</h4><h5>1999元起</h5>
 			</div>
-			<div class="danpin-list danpin-list1">
+			<div class="danpin-list">
 				<div class="danpin-img"><img src="IMG/xiaomibijiben.png" alt=""></div>
 				<h3>小米笔记本</h3><h4>更轻更薄，像杂志一样随身携带</h4><h5>3599元起</h5>
+			</div>
+			<div class="danpin-list">
+				<div class="danpin-img"><img src="IMG/danpin1.png" alt=""></div>
+				<h3>贝医生巴氏牙刷(四色装)</h3><h4>德日进口刷毛，专利科学布局</h4><h5>39.9元</h5>
+			</div>
+			<div class="danpin-list">
+				<div class="danpin-img"><img src="IMG/danpin2.png" alt=""></div>
+				<h3>小米手环 2</h3><h4>OLED 显示屏幕，升级计步算法</h4><h5>149元</h5>
+			</div>
+			<div class="danpin-list">
+				<div class="danpin-img"><img src="IMG/danpin3.jpg" alt=""></div>
+				<h3>米家压力IH电饭煲</h3><h4>智能烹饪，压力IH加热技术</h4><h5>999元</h5>
+			</div>
+			<div class="danpin-list">
+				<div class="danpin-img"><img src="IMG/danpin4.png" alt=""></div>
+				<h3>米家空气净化器Pro</h3><h4>OLED显示屏幕，激光颗粒物传感器</h4><h5>1499元</h5>
+			</div>
+			<div class="danpin-list danpin-list1">
+				<div class="danpin-img"><img src="IMG/danpin5.png" alt=""></div>
+				<h3>小米路由器3</h3><h4>更快更强，不止四天线</h4><h5>139元</h5>
 			</div>
 		</div>
 	</div>
@@ -170,10 +198,10 @@
 				<div class="top-wenzi top-wenzi2">家电</div>
 			</div>
 			<div class="top-right">
-				<div class="top-wenzi top-wenzi1">热门</div>
-				<div class="top-wenzi">电视影音</div>
-				<div class="top-wenzi">电脑</div>
-				<div class="top-wenzi top-wenzi3">家居</div>
+				<div class="top-wenzi5 top-wenzi1">热门</div>
+				<div class="top-wenzi5">电视影音</div>
+				<div class="top-wenzi5">电脑</div>
+				<div class="top-wenzi5 top-wenzi3">家居</div>
 			</div>
 		</div>
 	</div>
@@ -277,35 +305,108 @@
 				<div class="jiadian-box7"><i class="iconfont1">&#xe603;</i></div>
 			</div>
 		</div>
-	</div>
-	<!-- 家电结束 -->
-	<!-- 智能开始 -->
-	<div id="jiadian">
-		<div class="jiadian-top top-left1">
-			<div class="top-left">
-				<div class="top-wenzi top-wenzi2">智能</div>
+		<div class="jiadian-right">
+			<div class="jiadian-1">
+				<div class="jiaddian-box1">
+					<div class="jiandiantu-1"><img src="IMG/dianshi1.jpg" alt=""></div><h3>小米电视4 49英寸</h3><h4>4.9mm 极超薄机身／无边框式设计</h4>
+					<h5>3599元</h5>
+					<div class="yidongbox">
+						<div class="hzbox">
+							<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
+							<div class="xbox"> 来自于 1067876205 的评价 </div>
+						</div>
+					</div>
+				</div>
 			</div>
-			<div class="top-right">
-				<div class="top-wenzi top-wenzi1">热门</div>
-				<div class="top-wenzi">出行</div>
-				<div class="top-wenzi">健康</div>
-				<div class="top-wenzi">酷玩</div>
-				<div class="top-wenzi top-wenzi3">路由器</div>
+			<div class="jiadian-1">
+				<div class="jiaddian-box1">
+					<div class="jiandiantu-1"><img src="IMG/dianshi2.png" alt=""></div><h3>小米电视4A 55" 标准版</h3><h4>4K高清HDR / 真四核64位高性能处理器</h4>
+					<h5>2999元</h5>
+					<div class="yidongbox">
+						<div class="hzbox">
+							<div class="sbox">这款小米电视还不错，挺漂亮的，画面清晰，系统流畅，还...</div>
+							<div class="xbox">  来自于 加载中 的评价 </div>
+						</div>
+					</div>
+				</div>
 			</div>
-		</div>
-	</div>
-	<div id="jiadian2">
-		<div class="zhineng-left">
-			<div class="img-box">
-				<img src="IMG/zhineng0.jpg" alt="">
-				<img src="IMG/zhineng.jpg" alt="">
+			<div class="jiadian-1">
+				<div class="jiaddian-box1">
+					<div class="jiandiantu-1"><img src="IMG/dianshi3.png" alt=""></div><h3>小米电视4A 65" 标准版</h3><h4>4K超高清屏／真四核64位高性能处理器</h4>
+					<h5>4999元</h5>
+					<div class="yidongbox">
+						<div class="hzbox">
+							<div class="sbox">十分满意，做工还需进步，后盖接缝不是那么完美，贴个膜...</div>
+							<div class="xbox">  来自于 青春lee木头◑▂◐ 的评价 </div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="jiadian-1">
+				<div class="jiaddian-box1">
+					<div class="jiandiantu-1"><img src="IMG/dianshi4.png" alt=""></div><h3>小米电视4A 49英寸 标准版</h3><h4>2GB+8GB 大储存／全高清HDR</h4>
+					<h5>2399元</h5>
+					<div class="yidongbox">
+						<div class="hzbox">
+							<div class="sbox">刚拿到就看电视剧*罒▽罒*新的就是不一样，最爱小米！</div>
+							<div class="xbox">  来自于 limiduo 的评价 </div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="jiadian-2">
+				<div class="jiaddian-box2">
+					<div class="jiandiantu-2"><img src="IMG/dianshi2.png" alt=""><h3>小米电视4A 55" 语音版</h3><h4>杜比音效平板电视／海量高清片源</h4><h5>3199元</h5>
+					</div>
+					<div class="yidongbox2">
+						<div class="hzbox">
+							<div class="sbox">宝贝到了，迫不及待的把我家的宝贝称了一下。很准</div>
+							<div class="xbox">  来自于 公腾贺 的评价 </div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="jiadian-2">
+				<div class="jiaddian-box2">
+					<div class="jiandiantu-2"><img src="IMG/dianshi5.jpg" alt=""><h3>小米电视4 65英寸</h3><h4>无边框式设计 / 3GB+32GB超大内存</h4>
+					<h5>9999元</h5>
+					<div class="yidongbox2">
+						<div class="hzbox">
+							<div class="sbox">沉沉的小家伙搬的我好累，当喝到净水机甜甜的直饮水时，...</div>
+							<div class="xbox">  来自于 赵一 的评价 </div>
+						</div>
+					</div>
+					</div>
+				</div>
+			</div>
+			<div class="jiadian-2">
+				<div class="jiaddian-box2">
+					<div class="jiandiantu-2"><img src="IMG/dianshi6.jpg" alt=""><h3>小米盒子3s</h3><h4>4K HDR 人工智能机顶盒</h4>
+					<h5>329元</h5>
+					<div class="yidongbox2">
+						<div class="hzbox">
+							<div class="sbox">抽奖抽中的相机和全景摄像头，很棒。不枉我从第一代小米...</div>
+							<div class="xbox">  来自于 Pj 的评价 </div>
+						</div>
+					</div>				
+					</div>
+				</div>
+			</div>
+			<div class="jiadian-3">
+				<div class="jiadian-box3"><h3>盒子3 增强版</h3><h4>399元</h4></div>
+				<div class="jiadian-box6">
+				<img src="IMG/dianshi7.jpg" alt=""></div>
+			</div>
+			<div class="jiadian-3">
+				<div class="jiadian-box5"><h3>浏览更多</h3><h4>电视影音</h4></div>
+				<div class="jiadian-box7"><i class="iconfont1">&#xe603;</i></div>
 			</div>
 		</div>
 		<div class="jiadian-right">
 			<div class="jiadian-1">
 				<div class="jiaddian-box1">
-					<div class="jiandiantu-1"><img src="IMG/zhineng1.jpg" alt=""></div><h3>九号平衡车</h3><h4>年轻人的酷玩具，骑行遥控两种玩法</h4>
-					<h5>1999元</h5>
+					<div class="jiandiantu-1"><img src="IMG/diannao1.jpg" alt=""></div><h3>小米笔记本Air 13.3" i7处理器</h3><h4>Intel酷睿i7处理器，8GB内存+256GB</h4>
+					<h5>5999元</h5>
 					<div class="yidongbox">
 						<div class="hzbox">
 							<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
@@ -316,485 +417,2108 @@
 			</div>
 			<div class="jiadian-1">
 				<div class="jiaddian-box1">
-					<div class="jiandiantu-1"><img src="IMG/zhineng2.jpg" alt=""></div><h3>70迈智能后视镜</h3><h4>ADAS高级驾辅.1080P行车记录</h4>
-					<h5>1299元</h5>
-					<div class="xpbox">新品</div>
+					<div class="jiandiantu-1"><img src="IMG/diannao2.jpg" alt=""></div><h3>小米笔记本Air13.3英寸</h3><h4>第7代CPU 2G独显 指纹解锁</h4>
+					<h5>5199元</h5>
 					<div class="yidongbox">
 						<div class="hzbox">
-							<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
-							<div class="xbox"> 来自于 1067876205 的评价 </div>
+							<div class="sbox">这款小米电视还不错，挺漂亮的，画面清晰，系统流畅，还...</div>
+							<div class="xbox">  来自于 加载中 的评价 </div>
 						</div>
 					</div>
 				</div>
 			</div>
 			<div class="jiadian-1">
 				<div class="jiaddian-box1">
-					<div class="jiandiantu-1"><img src="IMG/zhineng3.jpg" alt=""></div><h3>小米手环2</h3><h4>OLED显示屏幕，升级计步算法</h4>
-					<h5>149元</h5>
-					<div class="xpbox xpbox1">免邮费</div>
+					<div class="jiandiantu-1"><img src="IMG/diannao3.jpg" alt=""></div><h3>小米笔记本Air 13.3英寸</h3><h4>Intel 酷睿i5 处理器 独立显卡</h4>
+					<h5>4999元</h5>
 					<div class="yidongbox">
 						<div class="hzbox">
-							<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
-							<div class="xbox"> 来自于 1067876205 的评价 </div>
+							<div class="sbox">十分满意，做工还需进步，后盖接缝不是那么完美，贴个膜...</div>
+							<div class="xbox">  来自于 青春lee木头◑▂◐ 的评价 </div>
 						</div>
 					</div>
 				</div>
 			</div>
 			<div class="jiadian-1">
 				<div class="jiaddian-box1">
-					<div class="jiandiantu-1"><img src="IMG/zhineng4.jpg" alt=""></div><h3>米家IH电饭煲 3L</h3><h4>IH 电磁环绕加热，3000+ 煮米方案</h4>
-					<h5>399元</h5>
+					<div class="jiandiantu-1"><img src="IMG/diannao4.jpg" alt=""></div><h3>小米笔记本Air 12.5英寸</h3><h4>更轻更薄，像杂志一样随身携带</h4>
+					<h5>3999元</h5>
 					<div class="yidongbox">
 						<div class="hzbox">
-							<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
-							<div class="xbox"> 来自于 1067876205 的评价 </div>
+							<div class="sbox">刚拿到就看电视剧*罒▽罒*新的就是不一样，最爱小米！</div>
+							<div class="xbox">  来自于 limiduo 的评价 </div>
 						</div>
 					</div>
 				</div>
 			</div>
 			<div class="jiadian-2">
 				<div class="jiaddian-box2">
-					<div class="jiandiantu-2"><img src="IMG/zhineng5.jpg" alt="">
-					</div><h3>米家车载空气净化器</h3><h4>双风机循环气流，高效净化车内空气</h4><h5>399元</h5>
+					<div class="jiandiantu-2"><img src="IMG/diannao5.png" alt=""><h3>小米无线鼠标</h3><h4>耐脏亲肤涂层，人体工学设计</h4><h5>69元</h5>
+					</div>
 					<div class="yidongbox2">
 						<div class="hzbox">
-							<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
-							<div class="xbox"> 来自于 1067876205 的评价 </div>
+							<div class="sbox">宝贝到了，迫不及待的把我家的宝贝称了一下。很准</div>
+							<div class="xbox">  来自于 公腾贺 的评价 </div>
 						</div>
 					</div>
 				</div>
 			</div>
 			<div class="jiadian-2">
 				<div class="jiaddian-box2">
-					<div class="jiandiantu-2"><img src="IMG/zhoubian6.jpg" alt="">
-					</div><h3>米家小相机</h3><h4>清晰捕捉美好瞬间</h4>
-					<h5>699元</h5>
-					<div class="xpbox">新品</div>
+					<div class="jiandiantu-2"><img src="IMG/diannao6.jpg" alt=""><h3>小米便携鼠标</h3><h4>轻薄便携，铝合金外壳 +ABS 材质</h4>
+					<h5>94元</h5>
 					<div class="yidongbox2">
 						<div class="hzbox">
-							<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
-							<div class="xbox"> 来自于 1067876205 的评价 </div>
+							<div class="sbox">沉沉的小家伙搬的我好累，当喝到净水机甜甜的直饮水时，...</div>
+							<div class="xbox">  来自于 赵一 的评价 </div>
 						</div>
+					</div>
 					</div>
 				</div>
 			</div>
 			<div class="jiadian-2">
 				<div class="jiaddian-box2">
-					<div class="jiandiantu-2"><img src="IMG/zhineng7.jpg" alt="">
-					</div><h3>小米路由器HD（8TB）</h3><h4>全新一代智能家庭中心</h4>
-					<h5>3699元</h5>
-					<div class="xpbox">新品</div>
+					<div class="jiandiantu-2"><img src="IMG/diannao7.png" alt=""><h3>悦米机械键盘</h3><h4>铝合金机身，TTC红轴，87 键</h4>
+					<h5>289元</h5>
 					<div class="yidongbox2">
 						<div class="hzbox">
-							<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
-							<div class="xbox"> 来自于 1067876205 的评价 </div>
+							<div class="sbox">抽奖抽中的相机和全景摄像头，很棒。不枉我从第一代小米...</div>
+							<div class="xbox">  来自于 Pj 的评价 </div>
 						</div>
+					</div>				
 					</div>
 				</div>
 			</div>
 			<div class="jiadian-3">
-				<div class="jiadian-box3"><h3>小米VR眼睛</h3><h4>299元</h4></div>
+				<div class="jiadian-box3"><h3>多功能转接器</h3><h4>129元</h4></div>
 				<div class="jiadian-box6">
-				<img src="IMG/zhineng8.jpg" alt=""></div>
+				<img src="IMG/diannao8.jpg" alt=""></div>
 			</div>
 			<div class="jiadian-3">
-				<div class="jiadian-box5"><h3>浏览更多</h3><h4>热门</h4></div>
+				<div class="jiadian-box5"><h3>浏览更多</h3><h4>电脑</h4></div>
 				<div class="jiadian-box7"><i class="iconfont1">&#xe603;</i></div>
+			</div>
+		</div>
+		<div class="jiadian-right">
+			<div class="jiadian-1">
+				<div class="jiaddian-box1">
+					<div class="jiandiantu-1"><img src="IMG/jiaju1.jpg" alt=""></div><h3>米家恒温电水壶</h3><h4>水温智能控制，304 不锈钢内胆</h4>
+					<h5>199元</h5>
+					<div class="yidongbox">
+						<div class="hzbox">
+							<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
+							<div class="xbox"> 来自于 1067876205 的评价 </div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="jiadian-1">
+				<div class="jiaddian-box1">
+					<div class="jiandiantu-1"><img src="IMG/jiaju2.jpg" alt=""></div><h3>米家声波电动牙刷</h3><h4>磁悬浮声波马达，定制多种刷牙模式</h4>
+					<h5>199元</h5>
+					<div class="yidongbox">
+						<div class="hzbox">
+							<div class="sbox">这款小米电视还不错，挺漂亮的，画面清晰，系统流畅，还...</div>
+							<div class="xbox">  来自于 加载中 的评价 </div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="jiadian-1">
+				<div class="jiaddian-box1">
+					<div class="jiandiantu-1"><img src="IMG/jiaju3.jpg" alt=""></div><h3>小米体重秤</h3><h4>100克，喝杯水都可感知的精准</h4>
+					<h5>99元</h5>
+					<div class="yidongbox">
+						<div class="hzbox">
+							<div class="sbox">十分满意，做工还需进步，后盖接缝不是那么完美，贴个膜...</div>
+							<div class="xbox">  来自于 青春lee木头◑▂◐ 的评价 </div>
+						</div>
+					</div>
+					<div class="xpbox">新品</div>
+				</div>
+			</div>
+			<div class="jiadian-1">
+				<div class="jiaddian-box1">
+					<div class="jiandiantu-1"><img src="IMG/jiaju4.jpg" alt=""></div><h3>小米空气净化器2</h3><h4>10分钟，房间空气焕然一新</h4>
+					<h5>699元</h5>
+					<div class="yidongbox">
+						<div class="hzbox">
+							<div class="sbox">刚拿到就看电视剧*罒▽罒*新的就是不一样，最爱小米！</div>
+							<div class="xbox">  来自于 limiduo 的评价 </div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="jiadian-2">
+				<div class="jiaddian-box2">
+					<div class="jiandiantu-2"><img src="IMG/jiaju5.jpg" alt=""><h3>米家压力IH电饭煲</h3><h4>智能烹饪，灰铸铁粉体涂层内胆</h4><h5>999元</h5>
+					</div>
+					<div class="yidongbox2">
+						<div class="hzbox">
+							<div class="sbox">宝贝到了，迫不及待的把我家的宝贝称了一下。很准</div>
+							<div class="xbox">  来自于 公腾贺 的评价 </div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="jiadian-2">
+				<div class="jiaddian-box2">
+					<div class="jiandiantu-2"><img src="IMG/jiaju6.jpg" alt=""><h3>飞利浦智睿球泡灯</h3><h4>自由调节亮度，Wi-Fi随时操控</h4>
+					<h5>49元</h5>
+					<div class="yidongbox2">
+						<div class="hzbox">
+							<div class="sbox">沉沉的小家伙搬的我好累，当喝到净水机甜甜的直饮水时，...</div>
+							<div class="xbox">  来自于 赵一 的评价 </div>
+						</div>
+					</div>
+					</div>
+				</div>
+			</div>
+			<div class="jiadian-2">
+				<div class="jiaddian-box2">
+					<div class="jiandiantu-2"><img src="IMG/jiaju7.jpg" alt=""><h3>米家 LED 智能台灯</h3><h4>无可视频闪，四种场景优化调光</h4>
+					<h5>1599元</h5>
+					<div class="yidongbox2">
+						<div class="hzbox">
+							<div class="sbox">抽奖抽中的相机和全景摄像头，很棒。不枉我从第一代小米...</div>
+							<div class="xbox">  来自于 Pj 的评价 </div>
+						</div>
+					</div>				
+					</div>
+				</div>
+			</div>
+			<div class="jiadian-3">
+				<div class="jiadian-box3"><h3>Yeelight LE</h3><h4>379元</h4></div>
+				<div class="jiadian-box6">
+				<img src="IMG/jiaju8.png" alt=""></div>
+			</div>
+			<div class="jiadian-3">
+				<div class="jiadian-box5"><h3>浏览更多</h3><h4>家具</h4></div>
+				<div class="jiadian-box7"><i class="iconfont1">&#xe603;</i></div>
+			</div>
+		</div>
+	</div>
+	<!-- 家电结束 -->
+	<!-- 智能开始 -->
+	<div id="zhubox">
+		<div id="jiadian">
+			<div class="jiadian-top top-left1">
+				<div class="top-left">
+					<div class="top-wenzi top-wenzi2">智能</div>
+				</div>
+				<div class="top-right">
+					<div class="top-wenzi top-wenzi1">热门</div>
+					<div class="top-wenzi">出行</div>
+					<div class="top-wenzi">健康</div>
+					<div class="top-wenzi">酷玩</div>
+					<div class="top-wenzi top-wenzi3">路由器</div>
+				</div>
+			</div>
+		</div>
+		<div id="jiadian2">
+			<div class="zhineng-left">
+				<div class="img-box">
+					<img src="IMG/zhineng0.jpg" alt="">
+					<img src="IMG/zhineng.jpg" alt="">
+				</div>
+			</div>
+			<div class="jiadian-right">
+				<div class="jiadian-1">
+					<div class="jiaddian-box1">
+						<div class="jiandiantu-1"><img src="IMG/zhineng1.jpg" alt=""></div><h3>九号平衡车</h3><h4>年轻人的酷玩具，骑行遥控两种玩法</h4>
+						<h5>1999元</h5>
+						<div class="yidongbox">
+							<div class="hzbox">
+								<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
+								<div class="xbox"> 来自于 1067876205 的评价 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-1">
+					<div class="jiaddian-box1">
+						<div class="jiandiantu-1"><img src="IMG/zhineng2.jpg" alt=""></div><h3>70迈智能后视镜</h3><h4>ADAS高级驾辅.1080P行车记录</h4>
+						<h5>1299元</h5>
+						<div class="xpbox">新品</div>
+						<div class="yidongbox">
+							<div class="hzbox">
+								<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
+								<div class="xbox"> 来自于 1067876205 的评价 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-1">
+					<div class="jiaddian-box1">
+						<div class="jiandiantu-1"><img src="IMG/zhineng3.jpg" alt=""></div><h3>小米手环2</h3><h4>OLED显示屏幕，升级计步算法</h4>
+						<h5>149元</h5>
+						<div class="xpbox xpbox1">免邮费</div>
+						<div class="yidongbox">
+							<div class="hzbox">
+								<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
+								<div class="xbox"> 来自于 1067876205 的评价 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-1">
+					<div class="jiaddian-box1">
+						<div class="jiandiantu-1"><img src="IMG/zhineng4.jpg" alt=""></div><h3>米家IH电饭煲 3L</h3><h4>IH 电磁环绕加热，3000+ 煮米方案</h4>
+						<h5>399元</h5>
+						<div class="yidongbox">
+							<div class="hzbox">
+								<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
+								<div class="xbox"> 来自于 1067876205 的评价 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-2">
+					<div class="jiaddian-box2">
+						<div class="jiandiantu-2"><img src="IMG/zhineng5.jpg" alt="">
+						</div><h3>米家车载空气净化器</h3><h4>双风机循环气流，高效净化车内空气</h4><h5>399元</h5>
+						<div class="yidongbox2">
+							<div class="hzbox">
+								<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
+								<div class="xbox"> 来自于 1067876205 的评价 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-2">
+					<div class="jiaddian-box2">
+						<div class="jiandiantu-2"><img src="IMG/zhoubian6.jpg" alt="">
+						</div><h3>米家小相机</h3><h4>清晰捕捉美好瞬间</h4>
+						<h5>699元</h5>
+						<div class="xpbox">新品</div>
+						<div class="yidongbox2">
+							<div class="hzbox">
+								<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
+								<div class="xbox"> 来自于 1067876205 的评价 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-2">
+					<div class="jiaddian-box2">
+						<div class="jiandiantu-2"><img src="IMG/zhineng7.jpg" alt="">
+						</div><h3>小米路由器HD（8TB）</h3><h4>全新一代智能家庭中心</h4>
+						<h5>3699元</h5>
+						<div class="xpbox">新品</div>
+						<div class="yidongbox2">
+							<div class="hzbox">
+								<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
+								<div class="xbox"> 来自于 1067876205 的评价 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-3">
+					<div class="jiadian-box3"><h3>小米VR眼睛</h3><h4>299元</h4></div>
+					<div class="jiadian-box6">
+					<img src="IMG/zhineng8.jpg" alt=""></div>
+				</div>
+				<div class="jiadian-3">
+					<div class="jiadian-box5"><h3>浏览更多</h3><h4>热门</h4></div>
+					<div class="jiadian-box7"><i class="iconfont1">&#xe603;</i></div>
+				</div>
+			</div>
+			<div class="jiadian-right">
+				<div class="jiadian-1">
+					<div class="jiaddian-box1">
+						<div class="tuijian2"><img src="IMG/zhoubian1.jpg" alt=""></div>
+						<div class="tuijian3"><h3>米家运动鞋(智能版)男款</h3><h5>219元</h5><h4>1.7万人评价</h4></div>
+						<div class="yidongbox">
+							<div class="hzbox">
+								<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
+								<div class="xbox"> 来自于 1067876205 的评价 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-1">
+					<div class="jiaddian-box1">
+						<div class="tuijian2"><img src="IMG/zhoubian2.jpg" alt=""></div>
+						<div class="tuijian3"><h3>8H懒人舒适沙发</h3><h5>649元</h5><h4>10人评价</h4></div>
+						<div class="xpbox">新品</div>
+						<div class="yidongbox">
+							<div class="hzbox">
+								<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
+								<div class="xbox"> 来自于 1067876205 的评价 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-1">
+					<div class="jiaddian-box1">
+						<div class="tuijian2"><img src="IMG/zhoubian3.jpg" alt=""></div>
+						<div class="tuijian3"><h3>8H乳胶床垫</h3><h5>949元</h5><h4>781人评价</h4></div>
+						<div class="yidongbox">
+							<div class="hzbox">
+								<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
+								<div class="xbox"> 来自于 1067876205 的评价 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-1">
+					<div class="jiaddian-box1">
+						<div class="tuijian2"><img src="IMG/zhoubian4.jpg" alt=""></div>
+						<div class="tuijian3"><h3>TS防蓝光眼镜 米家定制</h3><h5>99元</h5><h4>1474人评价</h4></div>
+						<div class="xpbox">新品</div>
+						<div class="yidongbox">
+							<div class="hzbox">
+								<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
+								<div class="xbox"> 来自于 1067876205 的评价 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-2">
+					<div class="jiaddian-box2">
+						<div class="tuijian2"><img src="IMG/zhoubian5.jpg" alt=""></div>
+						<div class="tuijian3"><h3>最生活方巾·青春系列</h3><h5>14.9元</h5><h4>1168人评价</h4></div>
+						<div class="xpbox">新品</div>
+						<div class="yidongbox2">
+							<div class="hzbox">
+								<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
+								<div class="xbox"> 来自于 1067876205 的评价 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-2">
+					<div class="jiaddian-box2">
+						<div class="tuijian2"><img src="IMG/zhoubian6.jpg" alt=""></div>
+						<div class="tuijian3"><h3>8H护颈乳胶枕</h3><h5>199元</h5><h4>1.3万人评价</h4></div>
+						<div class="xpbox xpbox2">享9折</div>
+						<div class="yidongbox2">
+							<div class="hzbox">
+								<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
+								<div class="xbox"> 来自于 1067876205 的评价 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-2">
+					<div class="jiaddian-box2">
+						<div class="tuijian2"><img src="IMG/zhoubian7.jpg" alt=""></div>
+						<div class="tuijian3"><h3>TS偏光太阳镜 米家定制</h3><h5>89元</h5><h4>2372人评价</h4></div>
+						<div class="xpbox">新品</div>
+						<div class="yidongbox2">
+							<div class="hzbox">
+								<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
+								<div class="xbox"> 来自于 1067876205 的评价 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-3">
+					<div class="jiadian-box3">
+					<h3>小米支架式...</h3><h4>89元</h4></div>
+					<div class="jiadian-box6">
+					<img src="IMG/xmsxt.jpg" alt=""></div>
+				</div>
+				<div class="jiadian-3">
+					<div class="jiadian-box5"><h3>浏览更多</h3><h4>热门</h4></div>
+					<div class="jiadian-box7"><i class="iconfont1">&#xe603;</i></div>
+				</div>
+			</div>
+			<div class="jiadian-right">
+				<div class="jiadian-1">
+					<div class="jiaddian-box1">
+						<div class="tuijian2"><img src="IMG/pejian1.jpg" alt=""></div>
+						<div class="tuijian3"><h3>红米4X 标准高透贴膜</h3><h5>9.9元</h5><h4>85422人评价</h4></div>
+						<div class="xpbox xpbox2">享6折</div>
+						<div class="yidongbox">
+							<div class="hzbox">
+								<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
+								<div class="xbox"> 来自于 1067876205 的评价 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-1">
+					<div class="jiaddian-box1">
+						<div class="tuijian2"><img src="IMG/pejian2.jpg" alt=""></div>
+						<div class="tuijian3"><h3>红米Note4X 3GB+16GB/32GB...</h3><h5>9.9元</h5><h4>1.2万人评价</h4></div>
+						<div class="xpbox xpbox2">享6折</div>
+						<div class="yidongbox">
+							<div class="hzbox">
+								<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
+								<div class="xbox"> 来自于 1067876205 的评价 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-1">
+					<div class="jiaddian-box1">
+						<div class="tuijian2"><img src="IMG/pejian3.jpg" alt=""></div>
+						<div class="tuijian3"><h3>红米Note4X(3GB+32GB)高...</h3><h5>19元</h5><h4>6128人评价</h4></div>
+						<div class="yidongbox">
+							<div class="hzbox">
+								<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
+								<div class="xbox"> 来自于 1067876205 的评价 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-1">
+					<div class="jiaddian-box1">
+						<div class="tuijian2"><img src="IMG/pejian4.jpg" alt=""></div>
+						<div class="tuijian3"><h3>小米支架式自拍杆</h3><h5>89元</h5><h4>3672人评价</h4></div>
+						<div class="yidongbox">
+							<div class="hzbox">
+								<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
+								<div class="xbox"> 来自于 1067876205 的评价 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-2">
+					<div class="jiaddian-box2">
+						<div class="tuijian2"><img src="IMG/pejian5.jpg" alt=""></div>
+						<div class="tuijian3"><h3>小米指环支架</h3><h5>19元</h5><h4>1.9万人评价</h4></div>
+						<div class="yidongbox2">
+							<div class="hzbox">
+								<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
+								<div class="xbox"> 来自于 1067876205 的评价 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-2">
+					<div class="jiaddian-box2">
+						<div class="tuijian2"><img src="IMG/pejian6.jpg" alt=""></div>
+						<div class="tuijian3"><h3>米家随身风扇</h3><h5>14.9元</h5><h4>2.4万人评价</h4></div>
+						<div class="yidongbox2">
+							<div class="hzbox">
+								<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
+								<div class="xbox"> 来自于 1067876205 的评价 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-2">
+					<div class="jiaddian-box2">
+						<div class="tuijian2"><img src="IMG/pejian7.jpg" alt=""></div>
+						<div class="tuijian3"><h3>红米4X 高透软胶保护套</h3><h5>19元</h5><h4>1876人评价</h4></div>
+						<div class="yidongbox2">
+							<div class="hzbox">
+								<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
+								<div class="xbox"> 来自于 1067876205 的评价 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-3">
+					<div class="jiadian-box3"><h3>小米自拍杆...</h3><h4>39元</h4></div>
+					<div class="jiadian-box6">
+					<img src="IMG/pejian8.jpg" alt=""></div>
+				</div>
+				<div class="jiadian-3">
+					<div class="jiadian-box5"><h3>浏览更多</h3><h4>热门</h4></div>
+					<div class="jiadian-box7"><i class="iconfont1">&#xe603;</i></div>
+				</div>
+			</div>
+			<div class="jiadian-right">
+				<div class="jiadian-1">
+					<div class="jiaddian-box1">
+						<div class="jiandiantu-1"><img src="IMG/dianshi1.jpg" alt=""></div><h3>小米电视4 49英寸</h3><h4>4.9mm 极超薄机身／无边框式设计</h4>
+						<h5>3599元</h5>
+						<div class="yidongbox">
+							<div class="hzbox">
+								<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
+								<div class="xbox"> 来自于 1067876205 的评价 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-1">
+					<div class="jiaddian-box1">
+						<div class="jiandiantu-1"><img src="IMG/dianshi2.png" alt=""></div><h3>小米电视4A 55" 标准版</h3><h4>4K高清HDR / 真四核64位高性能处理器</h4>
+						<h5>2999元</h5>
+						<div class="yidongbox">
+							<div class="hzbox">
+								<div class="sbox">这款小米电视还不错，挺漂亮的，画面清晰，系统流畅，还...</div>
+								<div class="xbox">  来自于 加载中 的评价 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-1">
+					<div class="jiaddian-box1">
+						<div class="jiandiantu-1"><img src="IMG/dianshi3.png" alt=""></div><h3>小米电视4A 65" 标准版</h3><h4>4K超高清屏／真四核64位高性能处理器</h4>
+						<h5>4999元</h5>
+						<div class="yidongbox">
+							<div class="hzbox">
+								<div class="sbox">十分满意，做工还需进步，后盖接缝不是那么完美，贴个膜...</div>
+								<div class="xbox">  来自于 青春lee木头◑▂◐ 的评价 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-1">
+					<div class="jiaddian-box1">
+						<div class="jiandiantu-1"><img src="IMG/dianshi4.png" alt=""></div><h3>小米电视4A 49英寸 标准版</h3><h4>2GB+8GB 大储存／全高清HDR</h4>
+						<h5>2399元</h5>
+						<div class="yidongbox">
+							<div class="hzbox">
+								<div class="sbox">刚拿到就看电视剧*罒▽罒*新的就是不一样，最爱小米！</div>
+								<div class="xbox">  来自于 limiduo 的评价 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-2">
+					<div class="jiaddian-box2">
+						<div class="jiandiantu-2"><img src="IMG/dianshi2.png" alt=""><h3>小米电视4A 55" 语音版</h3><h4>杜比音效平板电视／海量高清片源</h4><h5>3199元</h5>
+						</div>
+						<div class="yidongbox2">
+							<div class="hzbox">
+								<div class="sbox">宝贝到了，迫不及待的把我家的宝贝称了一下。很准</div>
+								<div class="xbox">  来自于 公腾贺 的评价 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-2">
+					<div class="jiaddian-box2">
+						<div class="jiandiantu-2"><img src="IMG/dianshi5.jpg" alt=""><h3>小米电视4 65英寸</h3><h4>无边框式设计 / 3GB+32GB超大内存</h4>
+						<h5>9999元</h5>
+						<div class="yidongbox2">
+							<div class="hzbox">
+								<div class="sbox">沉沉的小家伙搬的我好累，当喝到净水机甜甜的直饮水时，...</div>
+								<div class="xbox">  来自于 赵一 的评价 </div>
+							</div>
+						</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-2">
+					<div class="jiaddian-box2">
+						<div class="jiandiantu-2"><img src="IMG/dianshi6.jpg" alt=""><h3>小米盒子3s</h3><h4>4K HDR 人工智能机顶盒</h4>
+						<h5>329元</h5>
+						<div class="yidongbox2">
+							<div class="hzbox">
+								<div class="sbox">抽奖抽中的相机和全景摄像头，很棒。不枉我从第一代小米...</div>
+								<div class="xbox">  来自于 Pj 的评价 </div>
+							</div>
+						</div>				
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-3">
+					<div class="jiadian-box3"><h3>盒子3 增强版</h3><h4>399元</h4></div>
+					<div class="jiadian-box6">
+					<img src="IMG/dianshi7.jpg" alt=""></div>
+				</div>
+				<div class="jiadian-3">
+					<div class="jiadian-box5"><h3>浏览更多</h3><h4>电视影音</h4></div>
+					<div class="jiadian-box7"><i class="iconfont1">&#xe603;</i></div>
+				</div>
+			</div>
+			<div class="jiadian-right">
+				<div class="jiadian-1">
+					<div class="jiaddian-box1">
+						<div class="tuijian2"><img src="IMG/dapei1.jpg" alt=""></div>
+						<div class="tuijian3"><h3>小米头戴式耳机 轻松版</h3><h5>189元</h5><h4>2353人评价</h4></div>
+						<div class="xpbox xpbox2">享9折</div>
+						<div class="yidongbox">
+							<div class="hzbox">
+								<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
+								<div class="xbox"> 来自于 1067876205 的评价 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-1">
+					<div class="jiaddian-box1">
+						<div class="tuijian2"><img src="IMG/dapei2.jpg" alt=""></div>
+						<div class="tuijian3"><h3>小米胶囊耳机</h3><h5>59元</h5><h4>4.1万人评价</h4></div>
+						<div class="yidongbox">
+							<div class="hzbox">
+								<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
+								<div class="xbox"> 来自于 1067876205 的评价 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-1">
+					<div class="jiaddian-box1">
+						<div class="tuijian2"><img src="IMG/dapei3.jpg" alt=""></div>
+						<div class="tuijian3"><h3>小米圈铁耳机Pro</h3><h5>139元</h5><h4>2.2万人评价</h4></div>
+						<div class="yidongbox">
+							<div class="hzbox">
+								<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
+								<div class="xbox"> 来自于 1067876205 的评价 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-1">
+					<div class="jiaddian-box1">
+						<div class="tuijian2"><img src="IMG/dapei4.jpg" alt=""></div>
+						<div class="tuijian3"><h3>小米随身蓝牙音箱</h3><h5>59元</h5><h4>2万人评价</h4></div>
+						<div class="yidongbox">
+							<div class="hzbox">
+								<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
+								<div class="xbox"> 来自于 1067876205 的评价 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-2">
+					<div class="jiaddian-box2">
+						<div class="tuijian2"><img src="IMG/dapei5.jpg" alt=""></div>
+						<div class="tuijian3"><h3>小米小钢炮蓝牙音箱</h3><h5>129元</h5><h4>2.8万人评价</h4></div>
+						<div class="yidongbox2">
+							<div class="hzbox">
+								<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
+								<div class="xbox"> 来自于 1067876205 的评价 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-2">
+					<div class="jiaddian-box2">
+						<div class="tuijian2"><img src="IMG/dapei6.jpg" alt=""></div>
+						<div class="tuijian3"><h3>小米方盒子蓝牙音箱2</h3><h5>129元</h5><h4>1701人评价</h4>
+						<div class="yidongbox2">
+							<div class="hzbox">
+								<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
+								<div class="xbox"> 来自于 1067876205 的评价 </div>
+							</div>
+						</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-2">
+					<div class="jiaddian-box2">
+						<div class="tuijian2"><img src="IMG/dapei7.jpg" alt=""></div>
+						<div class="tuijian3"><h3>小米米兔音箱</h3><h5>89元</h5><h4>2156人评价</h4></div>
+						<div class="yidongbox2">
+							<div class="hzbox">
+								<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
+								<div class="xbox"> 来自于 1067876205 的评价 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-3">
+					<div class="jiadian-box3"><h3>小米蓝牙音箱</h3><h4>199元</h4></div>
+					<div class="jiadian-box6">
+					<img src="IMG/dapei8.jpg" alt=""></div>
+				</div>
+				<div class="jiadian-3">
+					<div class="jiadian-box5"><h3>浏览更多</h3><h4>热门</h4></div>
+					<div class="jiadian-box7"><i class="iconfont1">&#xe603;</i></div>
+				</div>
 			</div>
 		</div>
 	</div>
 	<!-- 智能结束 -->
 	<!-- 搭配开始 -->
-	<div id="jiadian">
-		<div class="jiadian-top top-left1">
-			<div class="top-left">
-				<div class="top-wenzi top-wenzi2">搭配</div>
-			</div>
-			<div class="top-right">
-				<div class="top-wenzi top-wenzi1">热门</div>
-				<div class="top-wenzi">耳机音箱</div>
-				<div class="top-wenzi">电源</div>
-				<div class="top-wenzi top-wenzi3">电池存储卡</div>
+	<div id="zhubox">
+		<div id="jiadian">
+			<div class="jiadian-top top-left1">
+				<div class="top-left">
+					<div class="top-wenzi top-wenzi2">搭配</div>
+				</div>
+				<div class="top-right">
+					<div class="top-wenzi top-wenzi1">热门</div>
+					<div class="top-wenzi">耳机音箱</div>
+					<div class="top-wenzi">电源</div>
+					<div class="top-wenzi top-wenzi3">电池存储卡</div>
+				</div>
 			</div>
 		</div>
-	</div>
-	<div id="jiadian2">
-		<div class="zhineng-left">
-			<div class="img-box">
-				<img src="IMG/dapei.jpg" alt="">
-				<img src="IMG/dapei0.jpg" alt="">
+		<div id="jiadian2">
+			<div class="zhineng-left">
+				<div class="img-box">
+					<img src="IMG/dapei.jpg" alt="">
+					<img src="IMG/dapei0.jpg" alt="">
+				</div>
 			</div>
-		</div>
-		<div class="jiadian-right">
-			<div class="jiadian-1">
-				<div class="jiaddian-box1">
-					<div class="tuijian2"><img src="IMG/dapei1.jpg" alt=""></div>
-					<div class="tuijian3"><h3>小米头戴式耳机 轻松版</h3><h5>189元</h5><h4>2353人评价</h4></div>
-					<div class="xpbox xpbox2">享9折</div>
-					<div class="yidongbox">
-						<div class="hzbox">
-							<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
-							<div class="xbox"> 来自于 1067876205 的评价 </div>
+			<div class="jiadian-right">
+				<div class="jiadian-1">
+					<div class="jiaddian-box1">
+						<div class="tuijian2"><img src="IMG/dapei1.jpg" alt=""></div>
+						<div class="tuijian3"><h3>小米头戴式耳机 轻松版</h3><h5>189元</h5><h4>2353人评价</h4></div>
+						<div class="xpbox xpbox2">享9折</div>
+						<div class="yidongbox">
+							<div class="hzbox">
+								<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
+								<div class="xbox"> 来自于 1067876205 的评价 </div>
+							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-			<div class="jiadian-1">
-				<div class="jiaddian-box1">
-					<div class="tuijian2"><img src="IMG/dapei2.jpg" alt=""></div>
-					<div class="tuijian3"><h3>小米胶囊耳机</h3><h5>59元</h5><h4>4.1万人评价</h4></div>
-					<div class="yidongbox">
-						<div class="hzbox">
-							<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
-							<div class="xbox"> 来自于 1067876205 的评价 </div>
+				<div class="jiadian-1">
+					<div class="jiaddian-box1">
+						<div class="tuijian2"><img src="IMG/dapei2.jpg" alt=""></div>
+						<div class="tuijian3"><h3>小米胶囊耳机</h3><h5>59元</h5><h4>4.1万人评价</h4></div>
+						<div class="yidongbox">
+							<div class="hzbox">
+								<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
+								<div class="xbox"> 来自于 1067876205 的评价 </div>
+							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-			<div class="jiadian-1">
-				<div class="jiaddian-box1">
-					<div class="tuijian2"><img src="IMG/dapei3.jpg" alt=""></div>
-					<div class="tuijian3"><h3>小米圈铁耳机Pro</h3><h5>139元</h5><h4>2.2万人评价</h4></div>
-					<div class="yidongbox">
-						<div class="hzbox">
-							<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
-							<div class="xbox"> 来自于 1067876205 的评价 </div>
+				<div class="jiadian-1">
+					<div class="jiaddian-box1">
+						<div class="tuijian2"><img src="IMG/dapei3.jpg" alt=""></div>
+						<div class="tuijian3"><h3>小米圈铁耳机Pro</h3><h5>139元</h5><h4>2.2万人评价</h4></div>
+						<div class="yidongbox">
+							<div class="hzbox">
+								<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
+								<div class="xbox"> 来自于 1067876205 的评价 </div>
+							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-			<div class="jiadian-1">
-				<div class="jiaddian-box1">
-					<div class="tuijian2"><img src="IMG/dapei4.jpg" alt=""></div>
-					<div class="tuijian3"><h3>小米随身蓝牙音箱</h3><h5>59元</h5><h4>2万人评价</h4></div>
-					<div class="yidongbox">
-						<div class="hzbox">
-							<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
-							<div class="xbox"> 来自于 1067876205 的评价 </div>
+				<div class="jiadian-1">
+					<div class="jiaddian-box1">
+						<div class="tuijian2"><img src="IMG/dapei4.jpg" alt=""></div>
+						<div class="tuijian3"><h3>小米随身蓝牙音箱</h3><h5>59元</h5><h4>2万人评价</h4></div>
+						<div class="yidongbox">
+							<div class="hzbox">
+								<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
+								<div class="xbox"> 来自于 1067876205 的评价 </div>
+							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-			<div class="jiadian-2">
-				<div class="jiaddian-box2">
-					<div class="tuijian2"><img src="IMG/dapei5.jpg" alt=""></div>
-					<div class="tuijian3"><h3>小米小钢炮蓝牙音箱</h3><h5>129元</h5><h4>2.8万人评价</h4></div>
-					<div class="yidongbox2">
-						<div class="hzbox">
-							<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
-							<div class="xbox"> 来自于 1067876205 的评价 </div>
+				<div class="jiadian-2">
+					<div class="jiaddian-box2">
+						<div class="tuijian2"><img src="IMG/dapei5.jpg" alt=""></div>
+						<div class="tuijian3"><h3>小米小钢炮蓝牙音箱</h3><h5>129元</h5><h4>2.8万人评价</h4></div>
+						<div class="yidongbox2">
+							<div class="hzbox">
+								<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
+								<div class="xbox"> 来自于 1067876205 的评价 </div>
+							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-			<div class="jiadian-2">
-				<div class="jiaddian-box2">
-					<div class="tuijian2"><img src="IMG/dapei6.jpg" alt=""></div>
-					<div class="tuijian3"><h3>小米方盒子蓝牙音箱2</h3><h5>129元</h5><h4>1701人评价</h4>
-					<div class="yidongbox2">
-						<div class="hzbox">
-							<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
-							<div class="xbox"> 来自于 1067876205 的评价 </div>
+				<div class="jiadian-2">
+					<div class="jiaddian-box2">
+						<div class="tuijian2"><img src="IMG/dapei6.jpg" alt=""></div>
+						<div class="tuijian3"><h3>小米方盒子蓝牙音箱2</h3><h5>129元</h5><h4>1701人评价</h4>
+						<div class="yidongbox2">
+							<div class="hzbox">
+								<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
+								<div class="xbox"> 来自于 1067876205 的评价 </div>
+							</div>
 						</div>
-					</div>
-					</div>
-				</div>
-			</div>
-			<div class="jiadian-2">
-				<div class="jiaddian-box2">
-					<div class="tuijian2"><img src="IMG/dapei7.jpg" alt=""></div>
-					<div class="tuijian3"><h3>小米米兔音箱</h3><h5>89元</h5><h4>2156人评价</h4></div>
-					<div class="yidongbox2">
-						<div class="hzbox">
-							<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
-							<div class="xbox"> 来自于 1067876205 的评价 </div>
 						</div>
 					</div>
 				</div>
+				<div class="jiadian-2">
+					<div class="jiaddian-box2">
+						<div class="tuijian2"><img src="IMG/dapei7.jpg" alt=""></div>
+						<div class="tuijian3"><h3>小米米兔音箱</h3><h5>89元</h5><h4>2156人评价</h4></div>
+						<div class="yidongbox2">
+							<div class="hzbox">
+								<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
+								<div class="xbox"> 来自于 1067876205 的评价 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-3">
+					<div class="jiadian-box3"><h3>小米蓝牙音箱</h3><h4>199元</h4></div>
+					<div class="jiadian-box6">
+					<img src="IMG/dapei8.jpg" alt=""></div>
+				</div>
+				<div class="jiadian-3">
+					<div class="jiadian-box5"><h3>浏览更多</h3><h4>热门</h4></div>
+					<div class="jiadian-box7"><i class="iconfont1">&#xe603;</i></div>
+				</div>
 			</div>
-			<div class="jiadian-3">
-				<div class="jiadian-box3"><h3>小米蓝牙音箱</h3><h4>199元</h4></div>
-				<div class="jiadian-box6">
-				<img src="IMG/dapei8.jpg" alt=""></div>
+			<div class="jiadian-right">
+				<div class="jiadian-1">
+					<div class="jiaddian-box1">
+						<div class="jiandiantu-1"><img src="IMG/dianshi1.jpg" alt=""></div><h3>小米电视4 49英寸</h3><h4>4.9mm 极超薄机身／无边框式设计</h4>
+						<h5>3599元</h5>
+						<div class="yidongbox">
+							<div class="hzbox">
+								<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
+								<div class="xbox"> 来自于 1067876205 的评价 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-1">
+					<div class="jiaddian-box1">
+						<div class="jiandiantu-1"><img src="IMG/dianshi2.png" alt=""></div><h3>小米电视4A 55" 标准版</h3><h4>4K高清HDR / 真四核64位高性能处理器</h4>
+						<h5>2999元</h5>
+						<div class="yidongbox">
+							<div class="hzbox">
+								<div class="sbox">这款小米电视还不错，挺漂亮的，画面清晰，系统流畅，还...</div>
+								<div class="xbox">  来自于 加载中 的评价 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-1">
+					<div class="jiaddian-box1">
+						<div class="jiandiantu-1"><img src="IMG/dianshi3.png" alt=""></div><h3>小米电视4A 65" 标准版</h3><h4>4K超高清屏／真四核64位高性能处理器</h4>
+						<h5>4999元</h5>
+						<div class="yidongbox">
+							<div class="hzbox">
+								<div class="sbox">十分满意，做工还需进步，后盖接缝不是那么完美，贴个膜...</div>
+								<div class="xbox">  来自于 青春lee木头◑▂◐ 的评价 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-1">
+					<div class="jiaddian-box1">
+						<div class="jiandiantu-1"><img src="IMG/dianshi4.png" alt=""></div><h3>小米电视4A 49英寸 标准版</h3><h4>2GB+8GB 大储存／全高清HDR</h4>
+						<h5>2399元</h5>
+						<div class="yidongbox">
+							<div class="hzbox">
+								<div class="sbox">刚拿到就看电视剧*罒▽罒*新的就是不一样，最爱小米！</div>
+								<div class="xbox">  来自于 limiduo 的评价 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-2">
+					<div class="jiaddian-box2">
+						<div class="jiandiantu-2"><img src="IMG/dianshi2.png" alt=""><h3>小米电视4A 55" 语音版</h3><h4>杜比音效平板电视／海量高清片源</h4><h5>3199元</h5>
+						</div>
+						<div class="yidongbox2">
+							<div class="hzbox">
+								<div class="sbox">宝贝到了，迫不及待的把我家的宝贝称了一下。很准</div>
+								<div class="xbox">  来自于 公腾贺 的评价 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-2">
+					<div class="jiaddian-box2">
+						<div class="jiandiantu-2"><img src="IMG/dianshi5.jpg" alt=""><h3>小米电视4 65英寸</h3><h4>无边框式设计 / 3GB+32GB超大内存</h4>
+						<h5>9999元</h5>
+						<div class="yidongbox2">
+							<div class="hzbox">
+								<div class="sbox">沉沉的小家伙搬的我好累，当喝到净水机甜甜的直饮水时，...</div>
+								<div class="xbox">  来自于 赵一 的评价 </div>
+							</div>
+						</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-2">
+					<div class="jiaddian-box2">
+						<div class="jiandiantu-2"><img src="IMG/dianshi6.jpg" alt=""><h3>小米盒子3s</h3><h4>4K HDR 人工智能机顶盒</h4>
+						<h5>329元</h5>
+						<div class="yidongbox2">
+							<div class="hzbox">
+								<div class="sbox">抽奖抽中的相机和全景摄像头，很棒。不枉我从第一代小米...</div>
+								<div class="xbox">  来自于 Pj 的评价 </div>
+							</div>
+						</div>				
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-3">
+					<div class="jiadian-box3"><h3>盒子3 增强版</h3><h4>399元</h4></div>
+					<div class="jiadian-box6">
+					<img src="IMG/dianshi7.jpg" alt=""></div>
+				</div>
+				<div class="jiadian-3">
+					<div class="jiadian-box5"><h3>浏览更多</h3><h4>电视影音</h4></div>
+					<div class="jiadian-box7"><i class="iconfont1">&#xe603;</i></div>
+				</div>
 			</div>
-			<div class="jiadian-3">
-				<div class="jiadian-box5"><h3>浏览更多</h3><h4>热门</h4></div>
-				<div class="jiadian-box7"><i class="iconfont1">&#xe603;</i></div>
+			<div class="jiadian-right">
+				<div class="jiadian-1">
+					<div class="jiaddian-box1">
+						<div class="tuijian2"><img src="IMG/dapei1.jpg" alt=""></div>
+						<div class="tuijian3"><h3>小米头戴式耳机 轻松版</h3><h5>189元</h5><h4>2353人评价</h4></div>
+						<div class="xpbox xpbox2">享9折</div>
+						<div class="yidongbox">
+							<div class="hzbox">
+								<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
+								<div class="xbox"> 来自于 1067876205 的评价 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-1">
+					<div class="jiaddian-box1">
+						<div class="tuijian2"><img src="IMG/dapei2.jpg" alt=""></div>
+						<div class="tuijian3"><h3>小米胶囊耳机</h3><h5>59元</h5><h4>4.1万人评价</h4></div>
+						<div class="yidongbox">
+							<div class="hzbox">
+								<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
+								<div class="xbox"> 来自于 1067876205 的评价 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-1">
+					<div class="jiaddian-box1">
+						<div class="tuijian2"><img src="IMG/dapei3.jpg" alt=""></div>
+						<div class="tuijian3"><h3>小米圈铁耳机Pro</h3><h5>139元</h5><h4>2.2万人评价</h4></div>
+						<div class="yidongbox">
+							<div class="hzbox">
+								<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
+								<div class="xbox"> 来自于 1067876205 的评价 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-1">
+					<div class="jiaddian-box1">
+						<div class="tuijian2"><img src="IMG/dapei4.jpg" alt=""></div>
+						<div class="tuijian3"><h3>小米随身蓝牙音箱</h3><h5>59元</h5><h4>2万人评价</h4></div>
+						<div class="yidongbox">
+							<div class="hzbox">
+								<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
+								<div class="xbox"> 来自于 1067876205 的评价 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-2">
+					<div class="jiaddian-box2">
+						<div class="tuijian2"><img src="IMG/dapei5.jpg" alt=""></div>
+						<div class="tuijian3"><h3>小米小钢炮蓝牙音箱</h3><h5>129元</h5><h4>2.8万人评价</h4></div>
+						<div class="yidongbox2">
+							<div class="hzbox">
+								<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
+								<div class="xbox"> 来自于 1067876205 的评价 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-2">
+					<div class="jiaddian-box2">
+						<div class="tuijian2"><img src="IMG/dapei6.jpg" alt=""></div>
+						<div class="tuijian3"><h3>小米方盒子蓝牙音箱2</h3><h5>129元</h5><h4>1701人评价</h4>
+						<div class="yidongbox2">
+							<div class="hzbox">
+								<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
+								<div class="xbox"> 来自于 1067876205 的评价 </div>
+							</div>
+						</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-2">
+					<div class="jiaddian-box2">
+						<div class="tuijian2"><img src="IMG/dapei7.jpg" alt=""></div>
+						<div class="tuijian3"><h3>小米米兔音箱</h3><h5>89元</h5><h4>2156人评价</h4></div>
+						<div class="yidongbox2">
+							<div class="hzbox">
+								<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
+								<div class="xbox"> 来自于 1067876205 的评价 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-3">
+					<div class="jiadian-box3"><h3>小米蓝牙音箱</h3><h4>199元</h4></div>
+					<div class="jiadian-box6">
+					<img src="IMG/dapei8.jpg" alt=""></div>
+				</div>
+				<div class="jiadian-3">
+					<div class="jiadian-box5"><h3>浏览更多</h3><h4>热门</h4></div>
+					<div class="jiadian-box7"><i class="iconfont1">&#xe603;</i></div>
+				</div>
+			</div>
+			<div class="jiadian-right">
+				<div class="jiadian-1">
+					<div class="jiaddian-box1">
+						<div class="jiandiantu-1"><img src="IMG/zhineng1.jpg" alt=""></div><h3>九号平衡车</h3><h4>年轻人的酷玩具，骑行遥控两种玩法</h4>
+						<h5>1999元</h5>
+						<div class="yidongbox">
+							<div class="hzbox">
+								<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
+								<div class="xbox"> 来自于 1067876205 的评价 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-1">
+					<div class="jiaddian-box1">
+						<div class="jiandiantu-1"><img src="IMG/zhineng2.jpg" alt=""></div><h3>70迈智能后视镜</h3><h4>ADAS高级驾辅.1080P行车记录</h4>
+						<h5>1299元</h5>
+						<div class="xpbox">新品</div>
+						<div class="yidongbox">
+							<div class="hzbox">
+								<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
+								<div class="xbox"> 来自于 1067876205 的评价 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-1">
+					<div class="jiaddian-box1">
+						<div class="jiandiantu-1"><img src="IMG/zhineng3.jpg" alt=""></div><h3>小米手环2</h3><h4>OLED显示屏幕，升级计步算法</h4>
+						<h5>149元</h5>
+						<div class="xpbox xpbox1">免邮费</div>
+						<div class="yidongbox">
+							<div class="hzbox">
+								<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
+								<div class="xbox"> 来自于 1067876205 的评价 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-1">
+					<div class="jiaddian-box1">
+						<div class="jiandiantu-1"><img src="IMG/zhineng4.jpg" alt=""></div><h3>米家IH电饭煲 3L</h3><h4>IH 电磁环绕加热，3000+ 煮米方案</h4>
+						<h5>399元</h5>
+						<div class="yidongbox">
+							<div class="hzbox">
+								<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
+								<div class="xbox"> 来自于 1067876205 的评价 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-2">
+					<div class="jiaddian-box2">
+						<div class="jiandiantu-2"><img src="IMG/zhineng5.jpg" alt="">
+						</div><h3>米家车载空气净化器</h3><h4>双风机循环气流，高效净化车内空气</h4><h5>399元</h5>
+						<div class="yidongbox2">
+							<div class="hzbox">
+								<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
+								<div class="xbox"> 来自于 1067876205 的评价 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-2">
+					<div class="jiaddian-box2">
+						<div class="jiandiantu-2"><img src="IMG/zhoubian6.jpg" alt="">
+						</div><h3>米家小相机</h3><h4>清晰捕捉美好瞬间</h4>
+						<h5>699元</h5>
+						<div class="xpbox">新品</div>
+						<div class="yidongbox2">
+							<div class="hzbox">
+								<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
+								<div class="xbox"> 来自于 1067876205 的评价 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-2">
+					<div class="jiaddian-box2">
+						<div class="jiandiantu-2"><img src="IMG/zhineng7.jpg" alt="">
+						</div><h3>小米路由器HD（8TB）</h3><h4>全新一代智能家庭中心</h4>
+						<h5>3699元</h5>
+						<div class="xpbox">新品</div>
+						<div class="yidongbox2">
+							<div class="hzbox">
+								<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
+								<div class="xbox"> 来自于 1067876205 的评价 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-3">
+					<div class="jiadian-box3"><h3>小米VR眼睛</h3><h4>299元</h4></div>
+					<div class="jiadian-box6">
+					<img src="IMG/zhineng8.jpg" alt=""></div>
+				</div>
+				<div class="jiadian-3">
+					<div class="jiadian-box5"><h3>浏览更多</h3><h4>热门</h4></div>
+					<div class="jiadian-box7"><i class="iconfont1">&#xe603;</i></div>
+				</div>
 			</div>
 		</div>
 	</div>
 	<!-- 搭配结束 -->
 	<!-- 配件开始 -->
-	<div id="jiadian">
-		<div class="jiadian-top top-left1">
-			<div class="top-left">
-				<div class="top-wenzi top-wenzi2">配件</div>
-			</div>
-			<div class="top-right">
-				<div class="top-wenzi top-wenzi1">热门</div>
-				<div class="top-wenzi">保护套</div>
-				<div class="top-wenzi">贴膜</div>
-				<div class="top-wenzi top-wenzi3">其他配件</div>
+	<div id="zhubox">
+		<div id="jiadian">
+			<div class="jiadian-top top-left1">
+				<div class="top-left">
+					<div class="top-wenzi top-wenzi2">配件</div>
+				</div>
+				<div class="top-right">
+					<div class="top-wenzi top-wenzi1">热门</div>
+					<div class="top-wenzi">保护套</div>
+					<div class="top-wenzi">贴膜</div>
+					<div class="top-wenzi top-wenzi3">其他配件</div>
+				</div>
 			</div>
 		</div>
-	</div>
-	<div id="jiadian2">
-		<div class="zhineng-left">
-			<div class="img-box">
-				<img src="IMG/pejian.jpg" alt="">
-				<img src="IMG/pejian0.jpg" alt="">
+		<div id="jiadian2">
+			<div class="zhineng-left">
+				<div class="img-box">
+					<img src="IMG/pejian.jpg" alt="">
+					<img src="IMG/pejian0.jpg" alt="">
+				</div>
 			</div>
-		</div>
-		<div class="jiadian-right">
-			<div class="jiadian-1">
-				<div class="jiaddian-box1">
-					<div class="tuijian2"><img src="IMG/pejian1.jpg" alt=""></div>
-					<div class="tuijian3"><h3>红米4X 标准高透贴膜</h3><h5>9.9元</h5><h4>85422人评价</h4></div>
-					<div class="xpbox xpbox2">享6折</div>
-					<div class="yidongbox">
-						<div class="hzbox">
-							<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
-							<div class="xbox"> 来自于 1067876205 的评价 </div>
+			<div class="jiadian-right">
+				<div class="jiadian-1">
+					<div class="jiaddian-box1">
+						<div class="tuijian2"><img src="IMG/pejian1.jpg" alt=""></div>
+						<div class="tuijian3"><h3>红米4X 标准高透贴膜</h3><h5>9.9元</h5><h4>85422人评价</h4></div>
+						<div class="xpbox xpbox2">享6折</div>
+						<div class="yidongbox">
+							<div class="hzbox">
+								<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
+								<div class="xbox"> 来自于 1067876205 的评价 </div>
+							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-			<div class="jiadian-1">
-				<div class="jiaddian-box1">
-					<div class="tuijian2"><img src="IMG/pejian2.jpg" alt=""></div>
-					<div class="tuijian3"><h3>红米Note4X 3GB+16GB/32GB...</h3><h5>9.9元</h5><h4>1.2万人评价</h4></div>
-					<div class="xpbox xpbox2">享6折</div>
-					<div class="yidongbox">
-						<div class="hzbox">
-							<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
-							<div class="xbox"> 来自于 1067876205 的评价 </div>
+				<div class="jiadian-1">
+					<div class="jiaddian-box1">
+						<div class="tuijian2"><img src="IMG/pejian2.jpg" alt=""></div>
+						<div class="tuijian3"><h3>红米Note4X 3GB+16GB/32GB...</h3><h5>9.9元</h5><h4>1.2万人评价</h4></div>
+						<div class="xpbox xpbox2">享6折</div>
+						<div class="yidongbox">
+							<div class="hzbox">
+								<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
+								<div class="xbox"> 来自于 1067876205 的评价 </div>
+							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-			<div class="jiadian-1">
-				<div class="jiaddian-box1">
-					<div class="tuijian2"><img src="IMG/pejian3.jpg" alt=""></div>
-					<div class="tuijian3"><h3>红米Note4X(3GB+32GB)高...</h3><h5>19元</h5><h4>6128人评价</h4></div>
-					<div class="yidongbox">
-						<div class="hzbox">
-							<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
-							<div class="xbox"> 来自于 1067876205 的评价 </div>
+				<div class="jiadian-1">
+					<div class="jiaddian-box1">
+						<div class="tuijian2"><img src="IMG/pejian3.jpg" alt=""></div>
+						<div class="tuijian3"><h3>红米Note4X(3GB+32GB)高...</h3><h5>19元</h5><h4>6128人评价</h4></div>
+						<div class="yidongbox">
+							<div class="hzbox">
+								<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
+								<div class="xbox"> 来自于 1067876205 的评价 </div>
+							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-			<div class="jiadian-1">
-				<div class="jiaddian-box1">
-					<div class="tuijian2"><img src="IMG/pejian4.jpg" alt=""></div>
-					<div class="tuijian3"><h3>小米支架式自拍杆</h3><h5>89元</h5><h4>3672人评价</h4></div>
-					<div class="yidongbox">
-						<div class="hzbox">
-							<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
-							<div class="xbox"> 来自于 1067876205 的评价 </div>
+				<div class="jiadian-1">
+					<div class="jiaddian-box1">
+						<div class="tuijian2"><img src="IMG/pejian4.jpg" alt=""></div>
+						<div class="tuijian3"><h3>小米支架式自拍杆</h3><h5>89元</h5><h4>3672人评价</h4></div>
+						<div class="yidongbox">
+							<div class="hzbox">
+								<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
+								<div class="xbox"> 来自于 1067876205 的评价 </div>
+							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-			<div class="jiadian-2">
-				<div class="jiaddian-box2">
-					<div class="tuijian2"><img src="IMG/pejian5.jpg" alt=""></div>
-					<div class="tuijian3"><h3>小米指环支架</h3><h5>19元</h5><h4>1.9万人评价</h4></div>
-					<div class="yidongbox2">
-						<div class="hzbox">
-							<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
-							<div class="xbox"> 来自于 1067876205 的评价 </div>
+				<div class="jiadian-2">
+					<div class="jiaddian-box2">
+						<div class="tuijian2"><img src="IMG/pejian5.jpg" alt=""></div>
+						<div class="tuijian3"><h3>小米指环支架</h3><h5>19元</h5><h4>1.9万人评价</h4></div>
+						<div class="yidongbox2">
+							<div class="hzbox">
+								<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
+								<div class="xbox"> 来自于 1067876205 的评价 </div>
+							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-			<div class="jiadian-2">
-				<div class="jiaddian-box2">
-					<div class="tuijian2"><img src="IMG/pejian6.jpg" alt=""></div>
-					<div class="tuijian3"><h3>米家随身风扇</h3><h5>14.9元</h5><h4>2.4万人评价</h4></div>
-					<div class="yidongbox2">
-						<div class="hzbox">
-							<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
-							<div class="xbox"> 来自于 1067876205 的评价 </div>
+				<div class="jiadian-2">
+					<div class="jiaddian-box2">
+						<div class="tuijian2"><img src="IMG/pejian6.jpg" alt=""></div>
+						<div class="tuijian3"><h3>米家随身风扇</h3><h5>14.9元</h5><h4>2.4万人评价</h4></div>
+						<div class="yidongbox2">
+							<div class="hzbox">
+								<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
+								<div class="xbox"> 来自于 1067876205 的评价 </div>
+							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-			<div class="jiadian-2">
-				<div class="jiaddian-box2">
-					<div class="tuijian2"><img src="IMG/pejian7.jpg" alt=""></div>
-					<div class="tuijian3"><h3>红米4X 高透软胶保护套</h3><h5>19元</h5><h4>1876人评价</h4></div>
-					<div class="yidongbox2">
-						<div class="hzbox">
-							<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
-							<div class="xbox"> 来自于 1067876205 的评价 </div>
+				<div class="jiadian-2">
+					<div class="jiaddian-box2">
+						<div class="tuijian2"><img src="IMG/pejian7.jpg" alt=""></div>
+						<div class="tuijian3"><h3>红米4X 高透软胶保护套</h3><h5>19元</h5><h4>1876人评价</h4></div>
+						<div class="yidongbox2">
+							<div class="hzbox">
+								<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
+								<div class="xbox"> 来自于 1067876205 的评价 </div>
+							</div>
 						</div>
 					</div>
 				</div>
+				<div class="jiadian-3">
+					<div class="jiadian-box3"><h3>小米自拍杆...</h3><h4>39元</h4></div>
+					<div class="jiadian-box6">
+					<img src="IMG/pejian8.jpg" alt=""></div>
+				</div>
+				<div class="jiadian-3">
+					<div class="jiadian-box5"><h3>浏览更多</h3><h4>热门</h4></div>
+					<div class="jiadian-box7"><i class="iconfont1">&#xe603;</i></div>
+				</div>
 			</div>
-			<div class="jiadian-3">
-				<div class="jiadian-box3"><h3>小米自拍杆...</h3><h4>39元</h4></div>
-				<div class="jiadian-box6">
-				<img src="IMG/pejian8.jpg" alt=""></div>
+			<div class="jiadian-right">
+				<div class="jiadian-1">
+					<div class="jiaddian-box1">
+						<div class="jiandiantu-1"><img src="IMG/dianshi1.jpg" alt=""></div><h3>小米电视4 49英寸</h3><h4>4.9mm 极超薄机身／无边框式设计</h4>
+						<h5>3599元</h5>
+						<div class="yidongbox">
+							<div class="hzbox">
+								<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
+								<div class="xbox"> 来自于 1067876205 的评价 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-1">
+					<div class="jiaddian-box1">
+						<div class="jiandiantu-1"><img src="IMG/dianshi2.png" alt=""></div><h3>小米电视4A 55" 标准版</h3><h4>4K高清HDR / 真四核64位高性能处理器</h4>
+						<h5>2999元</h5>
+						<div class="yidongbox">
+							<div class="hzbox">
+								<div class="sbox">这款小米电视还不错，挺漂亮的，画面清晰，系统流畅，还...</div>
+								<div class="xbox">  来自于 加载中 的评价 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-1">
+					<div class="jiaddian-box1">
+						<div class="jiandiantu-1"><img src="IMG/dianshi3.png" alt=""></div><h3>小米电视4A 65" 标准版</h3><h4>4K超高清屏／真四核64位高性能处理器</h4>
+						<h5>4999元</h5>
+						<div class="yidongbox">
+							<div class="hzbox">
+								<div class="sbox">十分满意，做工还需进步，后盖接缝不是那么完美，贴个膜...</div>
+								<div class="xbox">  来自于 青春lee木头◑▂◐ 的评价 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-1">
+					<div class="jiaddian-box1">
+						<div class="jiandiantu-1"><img src="IMG/dianshi4.png" alt=""></div><h3>小米电视4A 49英寸 标准版</h3><h4>2GB+8GB 大储存／全高清HDR</h4>
+						<h5>2399元</h5>
+						<div class="yidongbox">
+							<div class="hzbox">
+								<div class="sbox">刚拿到就看电视剧*罒▽罒*新的就是不一样，最爱小米！</div>
+								<div class="xbox">  来自于 limiduo 的评价 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-2">
+					<div class="jiaddian-box2">
+						<div class="jiandiantu-2"><img src="IMG/dianshi2.png" alt=""><h3>小米电视4A 55" 语音版</h3><h4>杜比音效平板电视／海量高清片源</h4><h5>3199元</h5>
+						</div>
+						<div class="yidongbox2">
+							<div class="hzbox">
+								<div class="sbox">宝贝到了，迫不及待的把我家的宝贝称了一下。很准</div>
+								<div class="xbox">  来自于 公腾贺 的评价 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-2">
+					<div class="jiaddian-box2">
+						<div class="jiandiantu-2"><img src="IMG/dianshi5.jpg" alt=""><h3>小米电视4 65英寸</h3><h4>无边框式设计 / 3GB+32GB超大内存</h4>
+						<h5>9999元</h5>
+						<div class="yidongbox2">
+							<div class="hzbox">
+								<div class="sbox">沉沉的小家伙搬的我好累，当喝到净水机甜甜的直饮水时，...</div>
+								<div class="xbox">  来自于 赵一 的评价 </div>
+							</div>
+						</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-2">
+					<div class="jiaddian-box2">
+						<div class="jiandiantu-2"><img src="IMG/dianshi6.jpg" alt=""><h3>小米盒子3s</h3><h4>4K HDR 人工智能机顶盒</h4>
+						<h5>329元</h5>
+						<div class="yidongbox2">
+							<div class="hzbox">
+								<div class="sbox">抽奖抽中的相机和全景摄像头，很棒。不枉我从第一代小米...</div>
+								<div class="xbox">  来自于 Pj 的评价 </div>
+							</div>
+						</div>				
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-3">
+					<div class="jiadian-box3"><h3>盒子3 增强版</h3><h4>399元</h4></div>
+					<div class="jiadian-box6">
+					<img src="IMG/dianshi7.jpg" alt=""></div>
+				</div>
+				<div class="jiadian-3">
+					<div class="jiadian-box5"><h3>浏览更多</h3><h4>电视影音</h4></div>
+					<div class="jiadian-box7"><i class="iconfont1">&#xe603;</i></div>
+				</div>
 			</div>
-			<div class="jiadian-3">
-				<div class="jiadian-box5"><h3>浏览更多</h3><h4>热门</h4></div>
-				<div class="jiadian-box7"><i class="iconfont1">&#xe603;</i></div>
+			<div class="jiadian-right">
+				<div class="jiadian-1">
+					<div class="jiaddian-box1">
+						<div class="tuijian2"><img src="IMG/dapei1.jpg" alt=""></div>
+						<div class="tuijian3"><h3>小米头戴式耳机 轻松版</h3><h5>189元</h5><h4>2353人评价</h4></div>
+						<div class="xpbox xpbox2">享9折</div>
+						<div class="yidongbox">
+							<div class="hzbox">
+								<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
+								<div class="xbox"> 来自于 1067876205 的评价 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-1">
+					<div class="jiaddian-box1">
+						<div class="tuijian2"><img src="IMG/dapei2.jpg" alt=""></div>
+						<div class="tuijian3"><h3>小米胶囊耳机</h3><h5>59元</h5><h4>4.1万人评价</h4></div>
+						<div class="yidongbox">
+							<div class="hzbox">
+								<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
+								<div class="xbox"> 来自于 1067876205 的评价 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-1">
+					<div class="jiaddian-box1">
+						<div class="tuijian2"><img src="IMG/dapei3.jpg" alt=""></div>
+						<div class="tuijian3"><h3>小米圈铁耳机Pro</h3><h5>139元</h5><h4>2.2万人评价</h4></div>
+						<div class="yidongbox">
+							<div class="hzbox">
+								<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
+								<div class="xbox"> 来自于 1067876205 的评价 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-1">
+					<div class="jiaddian-box1">
+						<div class="tuijian2"><img src="IMG/dapei4.jpg" alt=""></div>
+						<div class="tuijian3"><h3>小米随身蓝牙音箱</h3><h5>59元</h5><h4>2万人评价</h4></div>
+						<div class="yidongbox">
+							<div class="hzbox">
+								<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
+								<div class="xbox"> 来自于 1067876205 的评价 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-2">
+					<div class="jiaddian-box2">
+						<div class="tuijian2"><img src="IMG/dapei5.jpg" alt=""></div>
+						<div class="tuijian3"><h3>小米小钢炮蓝牙音箱</h3><h5>129元</h5><h4>2.8万人评价</h4></div>
+						<div class="yidongbox2">
+							<div class="hzbox">
+								<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
+								<div class="xbox"> 来自于 1067876205 的评价 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-2">
+					<div class="jiaddian-box2">
+						<div class="tuijian2"><img src="IMG/dapei6.jpg" alt=""></div>
+						<div class="tuijian3"><h3>小米方盒子蓝牙音箱2</h3><h5>129元</h5><h4>1701人评价</h4>
+						<div class="yidongbox2">
+							<div class="hzbox">
+								<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
+								<div class="xbox"> 来自于 1067876205 的评价 </div>
+							</div>
+						</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-2">
+					<div class="jiaddian-box2">
+						<div class="tuijian2"><img src="IMG/dapei7.jpg" alt=""></div>
+						<div class="tuijian3"><h3>小米米兔音箱</h3><h5>89元</h5><h4>2156人评价</h4></div>
+						<div class="yidongbox2">
+							<div class="hzbox">
+								<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
+								<div class="xbox"> 来自于 1067876205 的评价 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-3">
+					<div class="jiadian-box3"><h3>小米蓝牙音箱</h3><h4>199元</h4></div>
+					<div class="jiadian-box6">
+					<img src="IMG/dapei8.jpg" alt=""></div>
+				</div>
+				<div class="jiadian-3">
+					<div class="jiadian-box5"><h3>浏览更多</h3><h4>热门</h4></div>
+					<div class="jiadian-box7"><i class="iconfont1">&#xe603;</i></div>
+				</div>
+			</div>
+			<div class="jiadian-right">
+				<div class="jiadian-1">
+					<div class="jiaddian-box1">
+						<div class="jiandiantu-1"><img src="IMG/zhineng1.jpg" alt=""></div><h3>九号平衡车</h3><h4>年轻人的酷玩具，骑行遥控两种玩法</h4>
+						<h5>1999元</h5>
+						<div class="yidongbox">
+							<div class="hzbox">
+								<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
+								<div class="xbox"> 来自于 1067876205 的评价 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-1">
+					<div class="jiaddian-box1">
+						<div class="jiandiantu-1"><img src="IMG/zhineng2.jpg" alt=""></div><h3>70迈智能后视镜</h3><h4>ADAS高级驾辅.1080P行车记录</h4>
+						<h5>1299元</h5>
+						<div class="xpbox">新品</div>
+						<div class="yidongbox">
+							<div class="hzbox">
+								<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
+								<div class="xbox"> 来自于 1067876205 的评价 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-1">
+					<div class="jiaddian-box1">
+						<div class="jiandiantu-1"><img src="IMG/zhineng3.jpg" alt=""></div><h3>小米手环2</h3><h4>OLED显示屏幕，升级计步算法</h4>
+						<h5>149元</h5>
+						<div class="xpbox xpbox1">免邮费</div>
+						<div class="yidongbox">
+							<div class="hzbox">
+								<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
+								<div class="xbox"> 来自于 1067876205 的评价 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-1">
+					<div class="jiaddian-box1">
+						<div class="jiandiantu-1"><img src="IMG/zhineng4.jpg" alt=""></div><h3>米家IH电饭煲 3L</h3><h4>IH 电磁环绕加热，3000+ 煮米方案</h4>
+						<h5>399元</h5>
+						<div class="yidongbox">
+							<div class="hzbox">
+								<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
+								<div class="xbox"> 来自于 1067876205 的评价 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-2">
+					<div class="jiaddian-box2">
+						<div class="jiandiantu-2"><img src="IMG/zhineng5.jpg" alt="">
+						</div><h3>米家车载空气净化器</h3><h4>双风机循环气流，高效净化车内空气</h4><h5>399元</h5>
+						<div class="yidongbox2">
+							<div class="hzbox">
+								<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
+								<div class="xbox"> 来自于 1067876205 的评价 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-2">
+					<div class="jiaddian-box2">
+						<div class="jiandiantu-2"><img src="IMG/zhoubian6.jpg" alt="">
+						</div><h3>米家小相机</h3><h4>清晰捕捉美好瞬间</h4>
+						<h5>699元</h5>
+						<div class="xpbox">新品</div>
+						<div class="yidongbox2">
+							<div class="hzbox">
+								<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
+								<div class="xbox"> 来自于 1067876205 的评价 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-2">
+					<div class="jiaddian-box2">
+						<div class="jiandiantu-2"><img src="IMG/zhineng7.jpg" alt="">
+						</div><h3>小米路由器HD（8TB）</h3><h4>全新一代智能家庭中心</h4>
+						<h5>3699元</h5>
+						<div class="xpbox">新品</div>
+						<div class="yidongbox2">
+							<div class="hzbox">
+								<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
+								<div class="xbox"> 来自于 1067876205 的评价 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-3">
+					<div class="jiadian-box3"><h3>小米VR眼睛</h3><h4>299元</h4></div>
+					<div class="jiadian-box6">
+					<img src="IMG/zhineng8.jpg" alt=""></div>
+				</div>
+				<div class="jiadian-3">
+					<div class="jiadian-box5"><h3>浏览更多</h3><h4>热门</h4></div>
+					<div class="jiadian-box7"><i class="iconfont1">&#xe603;</i></div>
+				</div>
 			</div>
 		</div>
 	</div>
 	<!-- 配件结束 -->
 	<!-- 周边开始 -->
-	<div id="jiadian">
-		<div class="jiadian-top top-left1">
-			<div class="top-left">
-				<div class="top-wenzi top-wenzi2">周边</div>
-			</div>
-			<div class="top-right">
-				<div class="top-wenzi top-wenzi1">热门</div>
-				<div class="top-wenzi">服饰</div>
-				<div class="top-wenzi">米兔</div>
-				<div class="top-wenzi">生活周边</div>
-				<div class="top-wenzi top-wenzi3">箱包</div>
+	<div id="zhubox">
+		<div id="jiadian">
+			<div class="jiadian-top top-left1">
+				<div class="top-left">
+					<div class="top-wenzi top-wenzi2">周边</div>
+				</div>
+				<div class="top-right">
+					<div class="top-wenzi top-wenzi1">热门</div>
+					<div class="top-wenzi">服饰</div>
+					<div class="top-wenzi">米兔</div>
+					<div class="top-wenzi">生活周边</div>
+					<div class="top-wenzi top-wenzi3">箱包</div>
+				</div>
 			</div>
 		</div>
-	</div>
-	<div id="jiadian2">
-		<div class="zhineng-left">
-			<div class="img-box">
-				<img src="IMG/zhoubian.jpg" alt="">
-				<img src="IMG/zhoubian0.jpg" alt="">
+		<div id="jiadian2">
+			<div class="zhineng-left">
+				<div class="img-box">
+					<img src="IMG/zhoubian.jpg" alt="">
+					<img src="IMG/zhoubian0.jpg" alt="">
+				</div>
+			</div>
+			<div class="jiadian-right">
+				<div class="jiadian-1">
+					<div class="jiaddian-box1">
+						<div class="tuijian2"><img src="IMG/zhoubian1.jpg" alt=""></div>
+						<div class="tuijian3"><h3>米家运动鞋(智能版)男款</h3><h5>219元</h5><h4>1.7万人评价</h4></div>
+						<div class="yidongbox">
+							<div class="hzbox">
+								<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
+								<div class="xbox"> 来自于 1067876205 的评价 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-1">
+					<div class="jiaddian-box1">
+						<div class="tuijian2"><img src="IMG/zhoubian2.jpg" alt=""></div>
+						<div class="tuijian3"><h3>8H懒人舒适沙发</h3><h5>649元</h5><h4>10人评价</h4></div>
+						<div class="xpbox">新品</div>
+						<div class="yidongbox">
+							<div class="hzbox">
+								<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
+								<div class="xbox"> 来自于 1067876205 的评价 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-1">
+					<div class="jiaddian-box1">
+						<div class="tuijian2"><img src="IMG/zhoubian3.jpg" alt=""></div>
+						<div class="tuijian3"><h3>8H乳胶床垫</h3><h5>949元</h5><h4>781人评价</h4></div>
+						<div class="yidongbox">
+							<div class="hzbox">
+								<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
+								<div class="xbox"> 来自于 1067876205 的评价 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-1">
+					<div class="jiaddian-box1">
+						<div class="tuijian2"><img src="IMG/zhoubian4.jpg" alt=""></div>
+						<div class="tuijian3"><h3>TS防蓝光眼镜 米家定制</h3><h5>99元</h5><h4>1474人评价</h4></div>
+						<div class="xpbox">新品</div>
+						<div class="yidongbox">
+							<div class="hzbox">
+								<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
+								<div class="xbox"> 来自于 1067876205 的评价 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-2">
+					<div class="jiaddian-box2">
+						<div class="tuijian2"><img src="IMG/zhoubian5.jpg" alt=""></div>
+						<div class="tuijian3"><h3>最生活方巾·青春系列</h3><h5>14.9元</h5><h4>1168人评价</h4></div>
+						<div class="xpbox">新品</div>
+						<div class="yidongbox2">
+							<div class="hzbox">
+								<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
+								<div class="xbox"> 来自于 1067876205 的评价 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-2">
+					<div class="jiaddian-box2">
+						<div class="tuijian2"><img src="IMG/zhoubian6.jpg" alt=""></div>
+						<div class="tuijian3"><h3>8H护颈乳胶枕</h3><h5>199元</h5><h4>1.3万人评价</h4></div>
+						<div class="xpbox xpbox2">享9折</div>
+						<div class="yidongbox2">
+							<div class="hzbox">
+								<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
+								<div class="xbox"> 来自于 1067876205 的评价 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-2">
+					<div class="jiaddian-box2">
+						<div class="tuijian2"><img src="IMG/zhoubian7.jpg" alt=""></div>
+						<div class="tuijian3"><h3>TS偏光太阳镜 米家定制</h3><h5>89元</h5><h4>2372人评价</h4></div>
+						<div class="xpbox">新品</div>
+						<div class="yidongbox2">
+							<div class="hzbox">
+								<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
+								<div class="xbox"> 来自于 1067876205 的评价 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-3">
+					<div class="jiadian-box3">
+					<h3>小米支架式...</h3><h4>89元</h4></div>
+					<div class="jiadian-box6">
+					<img src="IMG/xmsxt.jpg" alt=""></div>
+				</div>
+				<div class="jiadian-3">
+					<div class="jiadian-box5"><h3>浏览更多</h3><h4>热门</h4></div>
+					<div class="jiadian-box7"><i class="iconfont1">&#xe603;</i></div>
+				</div>
+			</div>
+			<div class="jiadian-right">
+				<div class="jiadian-1">
+					<div class="jiaddian-box1">
+						<div class="tuijian2"><img src="IMG/pejian1.jpg" alt=""></div>
+						<div class="tuijian3"><h3>红米4X 标准高透贴膜</h3><h5>9.9元</h5><h4>85422人评价</h4></div>
+						<div class="xpbox xpbox2">享6折</div>
+						<div class="yidongbox">
+							<div class="hzbox">
+								<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
+								<div class="xbox"> 来自于 1067876205 的评价 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-1">
+					<div class="jiaddian-box1">
+						<div class="tuijian2"><img src="IMG/pejian2.jpg" alt=""></div>
+						<div class="tuijian3"><h3>红米Note4X 3GB+16GB/32GB...</h3><h5>9.9元</h5><h4>1.2万人评价</h4></div>
+						<div class="xpbox xpbox2">享6折</div>
+						<div class="yidongbox">
+							<div class="hzbox">
+								<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
+								<div class="xbox"> 来自于 1067876205 的评价 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-1">
+					<div class="jiaddian-box1">
+						<div class="tuijian2"><img src="IMG/pejian3.jpg" alt=""></div>
+						<div class="tuijian3"><h3>红米Note4X(3GB+32GB)高...</h3><h5>19元</h5><h4>6128人评价</h4></div>
+						<div class="yidongbox">
+							<div class="hzbox">
+								<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
+								<div class="xbox"> 来自于 1067876205 的评价 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-1">
+					<div class="jiaddian-box1">
+						<div class="tuijian2"><img src="IMG/pejian4.jpg" alt=""></div>
+						<div class="tuijian3"><h3>小米支架式自拍杆</h3><h5>89元</h5><h4>3672人评价</h4></div>
+						<div class="yidongbox">
+							<div class="hzbox">
+								<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
+								<div class="xbox"> 来自于 1067876205 的评价 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-2">
+					<div class="jiaddian-box2">
+						<div class="tuijian2"><img src="IMG/pejian5.jpg" alt=""></div>
+						<div class="tuijian3"><h3>小米指环支架</h3><h5>19元</h5><h4>1.9万人评价</h4></div>
+						<div class="yidongbox2">
+							<div class="hzbox">
+								<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
+								<div class="xbox"> 来自于 1067876205 的评价 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-2">
+					<div class="jiaddian-box2">
+						<div class="tuijian2"><img src="IMG/pejian6.jpg" alt=""></div>
+						<div class="tuijian3"><h3>米家随身风扇</h3><h5>14.9元</h5><h4>2.4万人评价</h4></div>
+						<div class="yidongbox2">
+							<div class="hzbox">
+								<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
+								<div class="xbox"> 来自于 1067876205 的评价 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-2">
+					<div class="jiaddian-box2">
+						<div class="tuijian2"><img src="IMG/pejian7.jpg" alt=""></div>
+						<div class="tuijian3"><h3>红米4X 高透软胶保护套</h3><h5>19元</h5><h4>1876人评价</h4></div>
+						<div class="yidongbox2">
+							<div class="hzbox">
+								<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
+								<div class="xbox"> 来自于 1067876205 的评价 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-3">
+					<div class="jiadian-box3"><h3>小米自拍杆...</h3><h4>39元</h4></div>
+					<div class="jiadian-box6">
+					<img src="IMG/pejian8.jpg" alt=""></div>
+				</div>
+				<div class="jiadian-3">
+					<div class="jiadian-box5"><h3>浏览更多</h3><h4>热门</h4></div>
+					<div class="jiadian-box7"><i class="iconfont1">&#xe603;</i></div>
+				</div>
+			</div>
+			<div class="jiadian-right">
+				<div class="jiadian-1">
+					<div class="jiaddian-box1">
+						<div class="jiandiantu-1"><img src="IMG/dianshi1.jpg" alt=""></div><h3>小米电视4 49英寸</h3><h4>4.9mm 极超薄机身／无边框式设计</h4>
+						<h5>3599元</h5>
+						<div class="yidongbox">
+							<div class="hzbox">
+								<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
+								<div class="xbox"> 来自于 1067876205 的评价 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-1">
+					<div class="jiaddian-box1">
+						<div class="jiandiantu-1"><img src="IMG/dianshi2.png" alt=""></div><h3>小米电视4A 55" 标准版</h3><h4>4K高清HDR / 真四核64位高性能处理器</h4>
+						<h5>2999元</h5>
+						<div class="yidongbox">
+							<div class="hzbox">
+								<div class="sbox">这款小米电视还不错，挺漂亮的，画面清晰，系统流畅，还...</div>
+								<div class="xbox">  来自于 加载中 的评价 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-1">
+					<div class="jiaddian-box1">
+						<div class="jiandiantu-1"><img src="IMG/dianshi3.png" alt=""></div><h3>小米电视4A 65" 标准版</h3><h4>4K超高清屏／真四核64位高性能处理器</h4>
+						<h5>4999元</h5>
+						<div class="yidongbox">
+							<div class="hzbox">
+								<div class="sbox">十分满意，做工还需进步，后盖接缝不是那么完美，贴个膜...</div>
+								<div class="xbox">  来自于 青春lee木头◑▂◐ 的评价 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-1">
+					<div class="jiaddian-box1">
+						<div class="jiandiantu-1"><img src="IMG/dianshi4.png" alt=""></div><h3>小米电视4A 49英寸 标准版</h3><h4>2GB+8GB 大储存／全高清HDR</h4>
+						<h5>2399元</h5>
+						<div class="yidongbox">
+							<div class="hzbox">
+								<div class="sbox">刚拿到就看电视剧*罒▽罒*新的就是不一样，最爱小米！</div>
+								<div class="xbox">  来自于 limiduo 的评价 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-2">
+					<div class="jiaddian-box2">
+						<div class="jiandiantu-2"><img src="IMG/dianshi2.png" alt=""><h3>小米电视4A 55" 语音版</h3><h4>杜比音效平板电视／海量高清片源</h4><h5>3199元</h5>
+						</div>
+						<div class="yidongbox2">
+							<div class="hzbox">
+								<div class="sbox">宝贝到了，迫不及待的把我家的宝贝称了一下。很准</div>
+								<div class="xbox">  来自于 公腾贺 的评价 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-2">
+					<div class="jiaddian-box2">
+						<div class="jiandiantu-2"><img src="IMG/dianshi5.jpg" alt=""><h3>小米电视4 65英寸</h3><h4>无边框式设计 / 3GB+32GB超大内存</h4>
+						<h5>9999元</h5>
+						<div class="yidongbox2">
+							<div class="hzbox">
+								<div class="sbox">沉沉的小家伙搬的我好累，当喝到净水机甜甜的直饮水时，...</div>
+								<div class="xbox">  来自于 赵一 的评价 </div>
+							</div>
+						</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-2">
+					<div class="jiaddian-box2">
+						<div class="jiandiantu-2"><img src="IMG/dianshi6.jpg" alt=""><h3>小米盒子3s</h3><h4>4K HDR 人工智能机顶盒</h4>
+						<h5>329元</h5>
+						<div class="yidongbox2">
+							<div class="hzbox">
+								<div class="sbox">抽奖抽中的相机和全景摄像头，很棒。不枉我从第一代小米...</div>
+								<div class="xbox">  来自于 Pj 的评价 </div>
+							</div>
+						</div>				
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-3">
+					<div class="jiadian-box3"><h3>盒子3 增强版</h3><h4>399元</h4></div>
+					<div class="jiadian-box6">
+					<img src="IMG/dianshi7.jpg" alt=""></div>
+				</div>
+				<div class="jiadian-3">
+					<div class="jiadian-box5"><h3>浏览更多</h3><h4>电视影音</h4></div>
+					<div class="jiadian-box7"><i class="iconfont1">&#xe603;</i></div>
+				</div>
+			</div>
+			<div class="jiadian-right">
+				<div class="jiadian-1">
+					<div class="jiaddian-box1">
+						<div class="tuijian2"><img src="IMG/dapei1.jpg" alt=""></div>
+						<div class="tuijian3"><h3>小米头戴式耳机 轻松版</h3><h5>189元</h5><h4>2353人评价</h4></div>
+						<div class="xpbox xpbox2">享9折</div>
+						<div class="yidongbox">
+							<div class="hzbox">
+								<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
+								<div class="xbox"> 来自于 1067876205 的评价 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-1">
+					<div class="jiaddian-box1">
+						<div class="tuijian2"><img src="IMG/dapei2.jpg" alt=""></div>
+						<div class="tuijian3"><h3>小米胶囊耳机</h3><h5>59元</h5><h4>4.1万人评价</h4></div>
+						<div class="yidongbox">
+							<div class="hzbox">
+								<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
+								<div class="xbox"> 来自于 1067876205 的评价 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-1">
+					<div class="jiaddian-box1">
+						<div class="tuijian2"><img src="IMG/dapei3.jpg" alt=""></div>
+						<div class="tuijian3"><h3>小米圈铁耳机Pro</h3><h5>139元</h5><h4>2.2万人评价</h4></div>
+						<div class="yidongbox">
+							<div class="hzbox">
+								<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
+								<div class="xbox"> 来自于 1067876205 的评价 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-1">
+					<div class="jiaddian-box1">
+						<div class="tuijian2"><img src="IMG/dapei4.jpg" alt=""></div>
+						<div class="tuijian3"><h3>小米随身蓝牙音箱</h3><h5>59元</h5><h4>2万人评价</h4></div>
+						<div class="yidongbox">
+							<div class="hzbox">
+								<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
+								<div class="xbox"> 来自于 1067876205 的评价 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-2">
+					<div class="jiaddian-box2">
+						<div class="tuijian2"><img src="IMG/dapei5.jpg" alt=""></div>
+						<div class="tuijian3"><h3>小米小钢炮蓝牙音箱</h3><h5>129元</h5><h4>2.8万人评价</h4></div>
+						<div class="yidongbox2">
+							<div class="hzbox">
+								<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
+								<div class="xbox"> 来自于 1067876205 的评价 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-2">
+					<div class="jiaddian-box2">
+						<div class="tuijian2"><img src="IMG/dapei6.jpg" alt=""></div>
+						<div class="tuijian3"><h3>小米方盒子蓝牙音箱2</h3><h5>129元</h5><h4>1701人评价</h4>
+						<div class="yidongbox2">
+							<div class="hzbox">
+								<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
+								<div class="xbox"> 来自于 1067876205 的评价 </div>
+							</div>
+						</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-2">
+					<div class="jiaddian-box2">
+						<div class="tuijian2"><img src="IMG/dapei7.jpg" alt=""></div>
+						<div class="tuijian3"><h3>小米米兔音箱</h3><h5>89元</h5><h4>2156人评价</h4></div>
+						<div class="yidongbox2">
+							<div class="hzbox">
+								<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
+								<div class="xbox"> 来自于 1067876205 的评价 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-3">
+					<div class="jiadian-box3"><h3>小米蓝牙音箱</h3><h4>199元</h4></div>
+					<div class="jiadian-box6">
+					<img src="IMG/dapei8.jpg" alt=""></div>
+				</div>
+				<div class="jiadian-3">
+					<div class="jiadian-box5"><h3>浏览更多</h3><h4>热门</h4></div>
+					<div class="jiadian-box7"><i class="iconfont1">&#xe603;</i></div>
+				</div>
+			</div>
+			<div class="jiadian-right">
+				<div class="jiadian-1">
+					<div class="jiaddian-box1">
+						<div class="jiandiantu-1"><img src="IMG/zhineng1.jpg" alt=""></div><h3>九号平衡车</h3><h4>年轻人的酷玩具，骑行遥控两种玩法</h4>
+						<h5>1999元</h5>
+						<div class="yidongbox">
+							<div class="hzbox">
+								<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
+								<div class="xbox"> 来自于 1067876205 的评价 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-1">
+					<div class="jiaddian-box1">
+						<div class="jiandiantu-1"><img src="IMG/zhineng2.jpg" alt=""></div><h3>70迈智能后视镜</h3><h4>ADAS高级驾辅.1080P行车记录</h4>
+						<h5>1299元</h5>
+						<div class="xpbox">新品</div>
+						<div class="yidongbox">
+							<div class="hzbox">
+								<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
+								<div class="xbox"> 来自于 1067876205 的评价 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-1">
+					<div class="jiaddian-box1">
+						<div class="jiandiantu-1"><img src="IMG/zhineng3.jpg" alt=""></div><h3>小米手环2</h3><h4>OLED显示屏幕，升级计步算法</h4>
+						<h5>149元</h5>
+						<div class="xpbox xpbox1">免邮费</div>
+						<div class="yidongbox">
+							<div class="hzbox">
+								<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
+								<div class="xbox"> 来自于 1067876205 的评价 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-1">
+					<div class="jiaddian-box1">
+						<div class="jiandiantu-1"><img src="IMG/zhineng4.jpg" alt=""></div><h3>米家IH电饭煲 3L</h3><h4>IH 电磁环绕加热，3000+ 煮米方案</h4>
+						<h5>399元</h5>
+						<div class="yidongbox">
+							<div class="hzbox">
+								<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
+								<div class="xbox"> 来自于 1067876205 的评价 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-2">
+					<div class="jiaddian-box2">
+						<div class="jiandiantu-2"><img src="IMG/zhineng5.jpg" alt="">
+						</div><h3>米家车载空气净化器</h3><h4>双风机循环气流，高效净化车内空气</h4><h5>399元</h5>
+						<div class="yidongbox2">
+							<div class="hzbox">
+								<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
+								<div class="xbox"> 来自于 1067876205 的评价 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-2">
+					<div class="jiaddian-box2">
+						<div class="jiandiantu-2"><img src="IMG/zhoubian6.jpg" alt="">
+						</div><h3>米家小相机</h3><h4>清晰捕捉美好瞬间</h4>
+						<h5>699元</h5>
+						<div class="xpbox">新品</div>
+						<div class="yidongbox2">
+							<div class="hzbox">
+								<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
+								<div class="xbox"> 来自于 1067876205 的评价 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-2">
+					<div class="jiaddian-box2">
+						<div class="jiandiantu-2"><img src="IMG/zhineng7.jpg" alt="">
+						</div><h3>小米路由器HD（8TB）</h3><h4>全新一代智能家庭中心</h4>
+						<h5>3699元</h5>
+						<div class="xpbox">新品</div>
+						<div class="yidongbox2">
+							<div class="hzbox">
+								<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
+								<div class="xbox"> 来自于 1067876205 的评价 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiadian-3">
+					<div class="jiadian-box3"><h3>小米VR眼睛</h3><h4>299元</h4></div>
+					<div class="jiadian-box6">
+					<img src="IMG/zhineng8.jpg" alt=""></div>
+				</div>
+				<div class="jiadian-3">
+					<div class="jiadian-box5"><h3>浏览更多</h3><h4>热门</h4></div>
+					<div class="jiadian-box7"><i class="iconfont1">&#xe603;</i></div>
+				</div>
 			</div>
 		</div>
-		<div class="jiadian-right">
-			<div class="jiadian-1">
-				<div class="jiaddian-box1">
-					<div class="tuijian2"><img src="IMG/zhoubian1.jpg" alt=""></div>
-					<div class="tuijian3"><h3>米家运动鞋(智能版)男款</h3><h5>219元</h5><h4>1.7万人评价</h4></div>
-					<div class="yidongbox">
-						<div class="hzbox">
-							<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
-							<div class="xbox"> 来自于 1067876205 的评价 </div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="jiadian-1">
-				<div class="jiaddian-box1">
-					<div class="tuijian2"><img src="IMG/zhoubian2.jpg" alt=""></div>
-					<div class="tuijian3"><h3>8H懒人舒适沙发</h3><h5>649元</h5><h4>10人评价</h4></div>
-					<div class="xpbox">新品</div>
-					<div class="yidongbox">
-						<div class="hzbox">
-							<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
-							<div class="xbox"> 来自于 1067876205 的评价 </div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="jiadian-1">
-				<div class="jiaddian-box1">
-					<div class="tuijian2"><img src="IMG/zhoubian3.jpg" alt=""></div>
-					<div class="tuijian3"><h3>8H乳胶床垫</h3><h5>949元</h5><h4>781人评价</h4></div>
-					<div class="yidongbox">
-						<div class="hzbox">
-							<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
-							<div class="xbox"> 来自于 1067876205 的评价 </div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="jiadian-1">
-				<div class="jiaddian-box1">
-					<div class="tuijian2"><img src="IMG/zhoubian4.jpg" alt=""></div>
-					<div class="tuijian3"><h3>TS防蓝光眼镜 米家定制</h3><h5>99元</h5><h4>1474人评价</h4></div>
-					<div class="xpbox">新品</div>
-					<div class="yidongbox">
-						<div class="hzbox">
-							<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
-							<div class="xbox"> 来自于 1067876205 的评价 </div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="jiadian-2">
-				<div class="jiaddian-box2">
-					<div class="tuijian2"><img src="IMG/zhoubian5.jpg" alt=""></div>
-					<div class="tuijian3"><h3>最生活方巾·青春系列</h3><h5>14.9元</h5><h4>1168人评价</h4></div>
-					<div class="xpbox">新品</div>
-					<div class="yidongbox2">
-						<div class="hzbox">
-							<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
-							<div class="xbox"> 来自于 1067876205 的评价 </div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="jiadian-2">
-				<div class="jiaddian-box2">
-					<div class="tuijian2"><img src="IMG/zhoubian6.jpg" alt=""></div>
-					<div class="tuijian3"><h3>8H护颈乳胶枕</h3><h5>199元</h5><h4>1.3万人评价</h4></div>
-					<div class="xpbox xpbox2">享9折</div>
-					<div class="yidongbox2">
-						<div class="hzbox">
-							<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
-							<div class="xbox"> 来自于 1067876205 的评价 </div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="jiadian-2">
-				<div class="jiaddian-box2">
-					<div class="tuijian2"><img src="IMG/zhoubian7.jpg" alt=""></div>
-					<div class="tuijian3"><h3>TS偏光太阳镜 米家定制</h3><h5>89元</h5><h4>2372人评价</h4></div>
-					<div class="xpbox">新品</div>
-					<div class="yidongbox2">
-						<div class="hzbox">
-							<div class="sbox">很支持国货小米，一个60寸的还有一个32寸的，是否有...</div>
-							<div class="xbox"> 来自于 1067876205 的评价 </div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="jiadian-3">
-				<div class="IMG/zhoubian8.jpg">
-				<h3>小米支架式...</h3><h4>89元</h4></div>
-				<div class="jiadian-box6">
-				<img src="IMG/xmsxt.jpg" alt=""></div>
-			</div>
-			<div class="jiadian-3">
-				<div class="jiadian-box5"><h3>浏览更多</h3><h4>热门</h4></div>
-				<div class="jiadian-box7"><i class="iconfont1">&#xe603;</i></div>
-			</div>
-		</div>
-	</div>
+	</div>	
 	<!-- 周边结束 -->
 	<!-- 为您推荐开始 -->
 	<div class="tuijian-top">
 			<h1>为您推荐</h1>
-			<div class="danpin-right"><i class="iconfont iconfont6">&#xe62b;</i></div>
-			<div class="danpin-right"><i class="iconfont iconfont6">&#xe62d;</i></div>
+			<div class="tuijian-rbox"><div class="tuijian-prev active">&gt;</div>
+			<div class="tuijian-next">&lt;</div></div>
 		</div>
 	<div id="tuijian">
-		<div class="tuijian1">
-			<div class="tuijian2"><img src="IMG/tuijian1.jpg" alt=""></div>
-			<div class="tuijian3"><h3>米家扫地机器人</h3><h5>1699元</h5><h4>1.2万人好评</h4></div>
-		</div>
-		<div class="tuijian1">
-			<div class="tuijian2"><img src="IMG/tuijian2.jpg" alt=""></div>
-			<div class="tuijian3"><h3>Amazfit 运动手表</h3><h5>799元</h5><h4>6966人好评</h4></div>
-		</div>
-		<div class="tuijian1">
-			<div class="tuijian2"><img src="IMG/tuijian3.jpg" alt="">
-			</div><div class="tuijian3"><h3>米家行车记录仪</h3><h5>319元</h5><h4>8871人好评</h4></div>
-		</div>
-		<div class="tuijian1">
-			<div class="tuijian2"><img src="IMG/tuijian4.jpg" alt=""></div>
-			<div class="tuijian3"><h3>小米米家电动滑板车</h3><h5>1999元</h5><h4>2581人好评</h4></div>
-		</div>
-		<div class="tuijian1 tujian4">
-			<div class="tuijian2"><img src="IMG/tuijian5.jpg" alt=""></div>
-			<div class="tuijian3"><h3>小米晕刀蓝牙耳机</h3><h5>129元</h5><h4>1.4万人好评</h4></div>
+		<div class="tuijian">
+			<div class="tuijian1">
+				<div class="tuijian2"><img src="IMG/tuijian1.jpg" alt=""></div>
+				<div class="tuijian3"><h3>米家扫地机器人</h3><h5>1699元</h5><h4>1.2万人好评</h4></div>
+			</div>
+			<div class="tuijian1">
+				<div class="tuijian2"><img src="IMG/tuijian2.jpg" alt=""></div>
+				<div class="tuijian3"><h3>Amazfit 运动手表</h3><h5>799元</h5><h4>6966人好评</h4></div>
+			</div>
+			<div class="tuijian1">
+				<div class="tuijian2"><img src="IMG/tuijian3.jpg" alt="">
+				</div><div class="tuijian3"><h3>米家行车记录仪</h3><h5>319元</h5><h4>8871人好评</h4></div>
+			</div>
+			<div class="tuijian1">
+				<div class="tuijian2"><img src="IMG/tuijian4.jpg" alt=""></div>
+				<div class="tuijian3"><h3>小米米家电动滑板车</h3><h5>1999元</h5><h4>2581人好评</h4></div>
+			</div>
+			<div class="tuijian1">
+				<div class="tuijian2"><img src="IMG/tuijian5.jpg" alt=""></div>
+				<div class="tuijian3"><h3>小米晕刀蓝牙耳机</h3><h5>129元</h5><h4>1.4万人好评</h4></div>
+			</div>
+			<div class="tuijian1">
+				<div class="tuijian2"><img src="IMG/tuijian6.jpg" alt=""></div>
+				<div class="tuijian3"><h3> 小米5X </h3><h5>1499元</h5><h4>   1.8万人好评    </h4></div>
+			</div>
+			<div class="tuijian1">
+				<div class="tuijian2"><img src="IMG/tuijian7.jpg" alt=""></div>
+				<div class="tuijian3"><h3> 红米Note 5A 全网通版 2GB内存 </h3><h5>699元</h5><h4>   601人好评    </h4></div>
+			</div>
+			<div class="tuijian1">
+				<div class="tuijian2"><img src="IMG/tuijian8.jpg" alt="">
+				</div><div class="tuijian3"><h3> 小米6 尊享全网通版 6GB内存 </h3><h5>2999元</h5><h4>   1.5万人好评    </h4></div>
+			</div>
+			<div class="tuijian1">
+				<div class="tuijian2"><img src="IMG/tuijian9.jpg" alt=""></div>
+				<div class="tuijian3"><h3>  小米Note 3 全网通版 6GB内存 </h3><h5>2499元</h5><h4>   6297人好评    </h4></div>
+			</div>
+			<div class="tuijian1 tujian4">
+				<div class="tuijian2"><img src="IMG/tuijian10.jpg" alt=""></div>
+				<div class="tuijian3"><h3> 米粉卡日租卡 </h3><h5>50元</h5><h4>   709人好评    </h4></div>
+			</div>
 		</div>
 	</div>
 	<!-- 为您推荐结束 -->
@@ -842,63 +2566,167 @@
 	<div class="neirong-top">
 			<h1>内容</h1></div>
 	<div id="neirong">
-		<div class="neirong1">
-			<div class="neibox1"><h4>图书</h4></div>
-			<div class="neibox2"><h5>哈利·波特与被诅咒的孩子</h5></div>
-			<div class="neibox3">“哈利·波特”第八个故事中文版震撼来袭！特别彩排版剧本！</div>
-			<div class="neibox4">29.37元</div>
-			<div class="neirong2"><img src="IMG/neirong.png" alt="">
-			<div class="nydbox">
-				<div class="nybox"><div class="nybox1"></div></div>
-				<div class="nybox"><div class="nybox1"></div></div>
-				<div class="nybox"><div class="nybox1"></div></div>
-			</div>
-			</div>
-		</div>
-		<div class="neirong1 b1">
-			<div class="neibox1"><h5>MIUI 主题</h5></div>
-			<div class="neibox2"><h5>吴亦凡定制主题</h5></div>
-			<div class="neibox3">6张锁屏动态壁纸随机，每张都给你惊喜！</div>
-			<div class="neibox4">免费</div>
-			<div class="neirong2"><img src="IMG/neirong2.jpg" alt="">
-			</div>
-			<div class="nydbox">
-				<div class="nybox"><div class="nybox1"></div></div>
-				<div class="nybox"><div class="nybox1"></div></div>
-				<div class="nybox"><div class="nybox1"></div></div>
-				<div class="nybox"><div class="nybox1"></div></div>
-			</div>
-		</div>
-		<div class="neirong1 b2">
-			<div class="neibox1"><h3>游戏</h3></div>
-			<div class="neibox2"><h5>米柚手游模拟器</h5></div>
-			<div class="neibox3">在电脑上玩遍小米所有手游</div>
-			<div class="neibox4">免费</div>
-			<div class="neirong2"><img src="IMG/neirong3.png" alt=""></div>
-			<div class="nydbox">
-				<div class="nybox"><div class="nybox1"></div></div>
-				<div class="nybox"><div class="nybox1"></div></div>
-				<div class="nybox"><div class="nybox1"></div></div>
-			</div>
-		</div>
-		<div class="neirong1 neirong4">
-			<div class="neibox1 neibox5"><h4>应用</h4></div>
-			<div class="neibox2"><h5>2017金米奖</h5></div>
-			<div class="neibox3">最优秀的应用和游戏</div>
-			<div class="neibox4"></div>
-			<div class="neirong2"><img src="IMG/neirong4.png" alt=""></div>
-			<div class="nydbox">
-				<div class="nybox"><div class="nybox1"></div></div>
-				<div class="nybox"><div class="nybox1"></div></div>
-				<div class="nybox"><div class="nybox1"></div></div>
-				<div class="nybox"><div class="nybox1"></div></div>
-			</div>
-		</div>
-	</div>
+        <div class="neirong">
+            <div class="neirongbox">
+                <div class="pwenzi">图书</div>
+                <div class="neirongxbox">
+                    <div class="xxbox">
+                    	<div class="neibox2">哈利·波特与被诅咒的孩子</div>
+						<div class="neibox3">“哈利·波特”第八个故事中文版震撼来袭！特别彩排版剧本！</div>
+						<div class="neibox4">29.37元</div>
+						<div class="neirong2"><img src="IMG/neirong.png" alt=""></div>
+					</div>
+                    <div class="xxbox">
+                    	<div class="neibox2"><h5>哈利·波特与被诅咒的孩子</h5></div>
+						<div class="neibox3">“哈利·波特”第八个故事中文版震撼来袭！特别彩排版剧本！</div>
+						<div class="neibox4">29.37元</div>
+						<div class="neirong2"><img src="IMG/neirong.png" alt=""></div>
+                    </div>
+                    <div class="xxbox">
+                    	<div class="neibox2"><h5>哈利·波特与被诅咒的孩子</h5></div>
+						<div class="neibox3">“哈利·波特”第八个故事中文版震撼来袭！特别彩排版剧本！</div>
+						<div class="neibox4">29.37元</div>
+						<div class="neirong2"><img src="IMG/neirong.png" alt=""></div>
+                    </div>
+                </div>
+                <div class="nedian-box">
+                    <div class="nrdian active"></div>
+                    <div class="nrdian"></div>
+                    <div class="nrdian"></div>
+                </div>
+                <div class="nbjt-box">
+                    <div class="zuo">&lt;</div>
+                    <div class="you">&gt;</div>
+                </div> 
+            </div>
+            <div class="neirongbox nrbox1">
+            	<div class="pwenzi">MIUI 主题</div>
+                <div class="neirongxbox">
+                    <div class="xxbox">
+						<div class="neibox2">吴亦凡定制主题</div>
+						<div class="neibox3">6张锁屏动态壁纸随机，每张都给你惊喜！</div>
+						<div class="neibox4">免费</div>
+						<div class="neirong2"><img src="IMG/neirong2.jpg" alt="">
+						</div>
+                    </div>
+                    <div class="xxbox">
+                    	<div class="neibox2">吴亦凡定制主题</div>
+						<div class="neibox3">6张锁屏动态壁纸随机，每张都给你惊喜！</div>
+						<div class="neibox4">免费</div>
+						<div class="neirong2"><img src="IMG/neirong2.jpg" alt="">
+						</div>
+                    </div>
+                    <div class="xxbox">
+                    	<div class="neibox2">吴亦凡定制主题</div>
+						<div class="neibox3">6张锁屏动态壁纸随机，每张都给你惊喜！</div>
+						<div class="neibox4">免费</div>
+						<div class="neirong2"><img src="IMG/neirong2.jpg" alt="">
+						</div>
+                    </div>
+                    <div class="xxbox">
+                    	<div class="neibox2">吴亦凡定制主题</div>
+						<div class="neibox3">6张锁屏动态壁纸随机，每张都给你惊喜！</div>
+						<div class="neibox4">免费</div>
+						<div class="neirong2"><img src="IMG/neirong2.jpg" alt="">
+						</div>
+                    </div>
+                </div>
+                <div class="nedian-box">
+                    <div class="nrdian active"></div>
+                    <div class="nrdian"></div>
+                    <div class="nrdian"></div>
+                    <div class="nrdian"></div>
+                </div>
+                <div class="nbjt-box">
+                    <div class="zuo">&lt;</div>
+                    <div class="you">&gt;</div>
+                </div> 
+            </div>
+            <div class="neirongbox nrbox2">
+            	<div class="pwenzi">游戏</div>
+                <div class="neirongxbox">
+                    <div class="xxbox">
+                    	<div class="neibox2">米柚手游模拟器</div>
+						<div class="neibox3">在电脑上玩遍小米所有手游</div>
+						<div class="neibox4">免费</div>
+						<div class="neirong2"><img src="IMG/neirong3.png" alt="">
+						</div>
+                    </div>
+                    <div class="xxbox">
+                    	<div class="neibox2">米柚手游模拟器</div>
+						<div class="neibox3">在电脑上玩遍小米所有手游</div>
+						<div class="neibox4">免费</div>
+						<div class="neirong2"><img src="IMG/neirong3.png" alt="">
+						</div>
+                    </div>
+                    <div class="xxbox">
+                    	<div class="neibox2">米柚手游模拟器</div>
+						<div class="neibox3">在电脑上玩遍小米所有手游</div>
+						<div class="neibox4">免费</div>
+						<div class="neirong2"><img src="IMG/neirong3.png" alt="">
+						</div>
+                    </div>
+                    <div class="xxbox">
+                    	<div class="neibox2">米柚手游模拟器</div>
+						<div class="neibox3">在电脑上玩遍小米所有手游</div>
+						<div class="neibox4">免费</div>
+						<div class="neirong2"><img src="IMG/neirong3.png" alt="">
+						</div>
+                    </div>
+                </div>
+                <div class="nedian-box">
+                    <div class="nrdian active"></div>
+                    <div class="nrdian"></div>
+                    <div class="nrdian"></div>
+                    <div class="nrdian"></div>
+                </div>
+                <div class="nbjt-box">
+                    <div class="zuo">&lt;</div>
+                    <div class="you">&gt;</div>
+                </div> 
+            </div>
+            <div class="neirongbox nrbox3">
+            	<div class="pwenzi">应用</div>
+                <div class="neirongxbox">
+                    <div class="xxbox">
+                    	<div class="neibox2">2017金米奖</div>
+						<div class="neibox3">最优秀的应用和游戏</div>
+						<div class="neibox4"></div>
+						<div class="neirong2"><img src="IMG/neirong4.png" alt="">
+						</div>
+                    </div>
+                    <div class="xxbox">
+                    	<div class="neibox2">2017金米奖</div>
+						<div class="neibox3">最优秀的应用和游戏</div>
+						<div class="neibox4"></div>
+						<div class="neirong2"><img src="IMG/neirong4.png" alt="">
+						</div>
+                    </div>
+                    <div class="xxbox">
+						<div class="neibox2">2017金米奖</div>
+						<div class="neibox3">最优秀的应用和游戏</div>
+						<div class="neibox4"></div>
+						<div class="neirong2"><img src="IMG/neirong4.png" alt="">
+						</div>
+                    </div>
+                </div>
+                <div class="nedian-box">
+                    <div class="nrdian active"></div>
+                    <div class="nrdian"></div>
+                    <div class="nrdian"></div>
+                </div>
+                <div class="nbjt-box">
+                    <div class="zuo">&lt;</div>
+                    <div class="you">&gt;</div>
+                </div> 
+            </div>
+        </div>
+    </div>
 	<!-- 内容结束 -->
 	<!-- 视频开始 -->
-	<div class="shipin-top">
-			<h1>视频</h1></div>
+	<div id="shipin-top">
+		<h1>视频</h1>
+	</div>
 	<div id="shipin">
 		<div class="shipin1">
 			<div class="shipin2"><img src="IMG/shipin1.jpg" alt=""></div>
@@ -982,10 +2810,10 @@
 			<h4>防伪查询</h4>
 		</div>
 		<div class="fuwubox1">
-		<h1>400-100-5678</h1>
-		<h2>周一至周日 8:00-18:00</h2>
-		<h3>（仅收市话费）</h3>
- 		<h4>24小时在线客服</h4>
+			<h1>400-100-5678</h1>
+			<h2>周一至周日 8:00-18:00</h2>
+			<h3>（仅收市话费）</h3>
+			<h4>24小时在线客服</h4>
 		</div>
 	</div>
 	<!-- 服务结束 -->
@@ -1031,6 +2859,7 @@
 		</div>
 		<div class="jiewei2"><img src="IMG/slogan2016.png" alt=""></div>
 	</div>
-
 	<!-- 结尾结束 -->
 </body>
+
+<script src="JS/xiaomi.js"></script>

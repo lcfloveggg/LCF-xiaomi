@@ -2,13 +2,12 @@
 * @Author: DELL
 * @Date:   2017-08-29 15:57:27
 * @Last Modified by:   DELL
-* @Last Modified time: 2017-09-16 08:42:15
+* @Last Modified time: 2017-10-12 23:37:44
 */
 #head{
 	width: 100%;
 	height: 40px;
 	background-color: #000;
-
 }
 .head-neikuan{
 	width: 1226px;
@@ -149,31 +148,59 @@
 	margin: 0 auto;
 	background-color: #333;
 	position: relative;
+	overflow: hidden;
 }
 .zhuye{
 	width: 1226px;
 	height: 460px;
 }
+.binnerbox{
+    width: 100%;
+    height: 100%;
+    background: red;
+}
+.binnerbox li{
+    list-style: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.binnerbox a{
+    width: 1226px;
+    height: 460px;
+    display: block;
+}
+.binnerbox img{
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+.binnerbox .active{
+    display: block;
+}
 .yuanbox{
 	width: 200px;
     height: 30px;
-    margin-left: 10px;
     position: absolute;
     right: 30px;
     bottom: 20px;
 }
 .yuan{
-	margin-top: 9px;
 	width: 12px;
 	height: 12px;
 	border-radius: 50%;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin: 9px 5px;
 	background-color: #b0b0b0 ;
 	border: 3px #b0b0b0 solid;
-	float: right;
+	float: left;
+	transition: all 0.5s;
+    z-index: 999;
 }
 .yuan:hover{
+	background-color: #eee;
+	cursor: pointer;
+}
+.yuanbox .active{
 	background-color: #eee;
 }
 .zuoyou1{
@@ -183,6 +210,12 @@
     width: 41px;
     height: 69px;
     margin-top: -35px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    cursor: pointer;
 }
 .zuoyou1:hover{
 	background-color: #757575;
@@ -194,6 +227,12 @@
     width: 41px;
     height: 69px;
     margin-top: -35px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    cursor: pointer;
 }
 .zuoyou2:hover{
 	background-color: #757575;
@@ -203,6 +242,9 @@
 	color: #b0b0b0;
 	line-height: 69px;
 	text-align: center;
+}
+.iconfont7:hover{
+	color: #fff;
 }
 .zhuye-left{
 	width: 234px;
@@ -234,27 +276,13 @@
     line-height: 16px;
 }
 .iconfont5{
-    font-family:"iconfont" !important;
-    font-size:16px;
-    color: #b0b0b0;
-    font-style:normal;
-    -webkit-font-smoothing: antialiased;
-    -webkit-text-stroke-width: 0.2px;
-    -moz-osx-font-smoothing: grayscale;/* 是图片以文字形式完美显示 */
+    font-size:20px;
+    color: rgba(255,255,255,0.7);
 }
 .iconfont1{
     font-family:"iconfont" !important;
     font-size:48px;
     color: red;
-    font-style:normal;
-    -webkit-font-smoothing: antialiased;
-    -webkit-text-stroke-width: 0.2px;
-    -moz-osx-font-smoothing: grayscale;/* 是图片以文字形式完美显示 */
-}
-.iconfont6{
-    font-family:"iconfont" !important;
-    font-size:16px;
-    color: #b0b0b0;
     font-style:normal;
     -webkit-font-smoothing: antialiased;
     -webkit-text-stroke-width: 0.2px;
@@ -351,23 +379,49 @@
 	height: 438px;
 	margin: 0 auto; 
 	margin-top: 26px;
+	overflow: hidden;
 }
 .danpin-top{
 	width: 100%;
 	height: 58px;
 }
-.danpin-right{
-	width: 24px;
-    height: 16px;
-    padding: 3px 5px;
+.danpin-rbox{
+	width: 48px;
+    height: 32px; 
+    float: right;
+    color: #bbb;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+.danpin-rbox .active{
+	color: #000;
+}
+.danpin-rbox .active:hover{
+	color: orangered;
+}
+.danpin-prev{
+	padding: 3px 5px;
     border: 1px solid #e0e0e0;
     font-size: 16px;
     line-height: 16px;
     margin-top:17px; 
     float: right;
     text-align: center;
+	cursor: pointer;
 }
-
+.danpin-next{
+	padding: 3px 5px;
+    border: 1px solid #e0e0e0;
+    font-size: 16px;
+    line-height: 16px;
+    margin-top:17px; 
+    float: right;
+    text-align: center;
+	cursor: pointer;
+}
 .head-wenzi a{
 	color: #b0b0b0;
 }
@@ -381,8 +435,9 @@
 	line-height: 40px;
 }
 .danpin-bottom{
-	width: 100%;
+	width: 2471px;
 	height: 380px;
+	transition: all 2s;
 }
 .danpin-list{
 	width: 234px;
@@ -442,6 +497,17 @@
 	font-family:"微软雅黑";
 	padding-top: 16px;
 	margin-right: 30px;
+	cursor: pointer;
+}
+.top-wenzi5{
+	float: left;
+	font-size: 16px;
+	line-height: 24px;
+	color: #000;
+	font-family:"微软雅黑";
+	padding-top: 16px;
+	margin-right: 30px;
+	cursor: pointer;
 }
 .top-wenzi1{
 	color: red;
@@ -465,6 +531,7 @@
 	height: 614px;
 	background-color: #eee;
 	margin: 0 auto;
+	overflow: hidden;
 }
 .jiadian-left{
 	width: 234px;
@@ -711,17 +778,53 @@ transition: all 1s ease;
 	line-height: 58px;
 	float: left;
 }
-.tijian-right{
-	width: 100px;
-	height: 30px;
-	background-color: skyblue;
-	float: right;
-	margin-top: 14px;
+.tuijian-rbox{
+	width: 48px;
+    height: 32px; 
+    float: right;
+    color: #bbb;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+.tuijian-rbox .active{
+	color: #000;
+}
+.tuijian-rbox .active:hover{
+	color: orangered;
+}
+.tuijian-prev{
+	padding: 3px 5px;
+    border: 1px solid #e0e0e0;
+    font-size: 16px;
+    line-height: 16px;
+    margin-top:17px; 
+    float: right;
+    text-align: center;
+	cursor: pointer;
+}
+.tuijian-next{
+	padding: 3px 5px;
+    border: 1px solid #e0e0e0;
+    font-size: 16px;
+    line-height: 16px;
+    margin-top:17px; 
+    float: right;
+    text-align: center;
+	cursor: pointer;
 }
 #tuijian{
 	width: 1226px;
 	height: 314px;
 	margin: 0 auto;
+	overflow: hidden;
+}
+.tuijian{
+	width: 2466px;
+	height: 314px;
+	transition: all 2s;
 }
 .tuijian1{
 	width: 234px;
@@ -839,43 +942,69 @@ transition: all 1s ease;
 }
 .neirong-top h1{
 	font-size: 22px;
-	line-height: 58px;
 }
 #neirong{
-	width: 1226px;
-	height: 415px;
-	margin: 0 auto;
+    width: 1226px;
+    height: 420px;
+    background: ;
+    margin: 0 auto;
 }
-.neirong1{
-	float: left;
-	width: 296px;
-	height: 415px;
-	margin-right: 14px;
-	margin-bottom: 14px;
-	border-top: 1px #ffac13 solid;
-	padding-top: 45px;
+.neirong{
+    width: 1240px;
+    height: 420px;
+    background: #eee;
 }
-.b1{
-	border-top-color: #83c44e;
+.neirongbox{
+    width: 296px;
+    height: 380px;
+    border-top: 1px solid #ffac13;
+    margin-right: 14px; 
+    padding: 45px 0 0;
+    background: #fff;
+    color: #ffac13;
+    float: left;
+    text-align: center;
+    font-size: 40px;
+    position: relative;
+    overflow: hidden;
+    transition: all 1s;
 }
-.b2{
+.neirongbox:hover{
+	transform: translateY(-2px);
+}
+.nrbox1{
+	border-top: 1px solid #83c44e;
+	color: #83c44e;
+}
+.nrbox2{
 	border-top-color: #e53935;
+    color: #e53935;
+}
+.nrbox3{
+	border-top-color: #2196f3;
+    color: #2196f3;
+}
+.pwenzi{
+	margin: 0 10px 18px;
+    line-height: 20px;
+    font-size: 16px;
+    text-align: center;
+}
+.neirongxbox{
+    width: 1300px;
+    height: 360px;
+    transition: all 1s;
+}
+.xxbox{
+    width: 296px;
+    height: 360px;
+    margin-right: 14px;
+    float: left;
 }
 .neirong2{
 	width: 216px;
 	height: 154px;
 	margin: 0 auto;
-}
-.neirong3{
-	width: 240px;
-	height: 96px;
-	margin: 0 auto;
-	font-size: 12px;
-	color: #333;
-}
-.neirong4{
-	margin-right: 0px;
-	border-top-color: #2196f3;
 }
 .neibox1{
 	margin: 0 10px 18px;
@@ -887,6 +1016,7 @@ transition: all 1s ease;
 .neibox2{
 	margin: 0 20px 5px;
 	font-size: 20px;
+	color: #333;
 	text-align: center;
 }
 .neibox3{
@@ -905,42 +1035,72 @@ transition: all 1s ease;
 	color: #333;
 	text-align: center;
 }
-.neibox1 h5{
-	color: #83c44e;
-}
-.neibox1 h3{
-	color: #e53935;
-}
-.neibox5{
-	color: #2196f3;
-}
-.nydbox{
-	text-align: center;
-}
-.nybox{
-	display: inline-block;
-    width: 10px;
+.nedian-box{
+    width: 296px;
     height: 10px;
-    padding: 10px;
-    margin-left: 5px;
+    position: absolute;
+    bottom: 30px;
+    display: flex;
+    justify-content:center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
-.nybox1{
-	display: block;
+.nrdian{
     width: 6px;
     height: 6px;
-    border: 1px solid orangered;
-    border-radius: 6px;
-    overflow: hidden;
+    background: #bbb;
+    border-radius: 50%;
+    margin: 2px 10px;
+    cursor: pointer;
 }
-.nybox1:hover{
-	background-color: #ffac13;
+.nrdian:hover{
+    background: orangered;
 }
-.shipin-top{
+.nedian-box .active{
+    width: 6px;
+    height: 6px;
+    background: #fff;
+    border: 2px solid red;
+    margin-top: 0;
+}
+.nbjt-box{
+    width: 296px;
+    height: 60px;
+    position: absolute;
+    top: 150px;
+    line-height: 60px;
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.0);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.zuo{
+    float: left;
+    cursor: pointer;
+    transition: all .5s;
+}
+.you{
+    float: right;
+    cursor: pointer;
+    transition: all .5s;
+}
+.neirongbox:hover .zuo,.neirongbox:hover .you{
+    background: #bbb;
+    color: #fff;
+}
+
+
+
+#shipin-top{
 	width: 1226px;
 	height: 58px;
-	margin: 0 auto;
+	margin: 0 auto;	
 }
-.shipin-top h1{
+#shipin-top h1{
 	font-size: 22px;
 	line-height: 58px;
 }
