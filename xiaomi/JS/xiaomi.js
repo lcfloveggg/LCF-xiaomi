@@ -12,6 +12,7 @@
         }
     });
 }
+
 {
 	let dians = document.querySelectorAll(".yuan");
 	let imgs = document.querySelectorAll(".binnerbox img");
@@ -66,6 +67,7 @@
         fn();
     };
 }
+
 {
 	let prev = document.querySelector(".danpin-prev");
 	let next = document.querySelector(".danpin-next");
@@ -76,14 +78,14 @@
 		next.classList.add("active");
 		rbox.style.marginLeft = "-1245px";
 		i=1;
-	};
+	}
 	next.onclick = nextfn;
 	function nextfn(){
 		prev.classList.add("active");
 		next.classList.remove("active");
 		rbox.style.marginLeft = "0";
 		i=0;
-	};
+	}
 	let i = 0;
 	let st = setInterval(fn,4000);
 	function fn(){
@@ -103,6 +105,7 @@
 	     st = setInterval(fn,4000);
 	};
 }
+
 {
 	let prev = document.querySelector(".tuijian-prev");
 	let next = document.querySelector(".tuijian-next");
@@ -140,6 +143,7 @@
 	     st = setInterval(fn,4000);
 	};
 }
+
 {
     let nrboxs = document.querySelectorAll("#zhubox");
     for(let i = 0;i < nrboxs.length;i++){
@@ -160,6 +164,7 @@
 	    });
     }
 }
+
 {
     let nrboxs = document.querySelectorAll(".neirongbox");
     for(let i = 0;i < nrboxs.length;i++){
@@ -189,14 +194,14 @@
         };
         function jtFn(jt = "r"){
             if (jt === "r") {
-            now++;
-            if (now === dians.length) {
-                now = dians.length-1;
-            }
+                now++;
+                if (now === dians.length) {
+                    now = dians.length-1;
+                }
             } else if (jt === "l") {
-            now--;
-            if (now < 0) {
-                now = 0;
+                now--;
+                if (now < 0) {
+                    now = 0;
                 }
             }
             for (let i = 0; i < dians.length; i++) {
